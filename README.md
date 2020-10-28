@@ -1,5 +1,9 @@
-# webprogramming_vue
-
+# Web Programming Lecture - VueJs Project
+- This project is an assigment of Web Programming Lecture and it aims that building a copy of `Trendyol` website with VueJs.
+#### Students :
+* Özgür Durak
+* Ogün Baysal
+ 
 ## Project setup
 ```
 yarn install
@@ -14,11 +18,3 @@ yarn serve
 ```
 yarn build
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
