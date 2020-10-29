@@ -1,0 +1,100 @@
+[
+  {
+    "id": "TWOAW21SW0217",
+    "category":  "",
+    "brand": "LC Waikiki",
+    "title" : "Bej Bugs Bunny Lisanslı Ön ve Sırt Baskılı Oversize Örme Sweatshirt",
+    "description": "<ul><li class=\"return-info\">15 gün içinde ücretsiz iade.<!-- -->Detaylı bilgi için <a class=\"pr-in-dt-link\" href=\"javascript:void(0)\">tıklayın</a></li><span><li>Modelin Ölçüleri: Boy: 1.77, Göğüs: 82, Bel: 59, Kalça: 88</li><li>Mankenin üzerindeki ürün S/36 bedendir.</li><li>%100 Pamuk, Örme Kumaş</li><li> Ürünlerimiz TRENDYOL etiketi ile gönderilecektir.</li><li><a class=\"content-img-zoom\" href=\"https://cdn.dsmcdn.com/Assets/ProductImages/chartlar/yerliuretimsiyah1.jpg\"><img style=\"max-width:200px !important; height:auto !important;\" src=\"https://cdn.dsmcdn.com/Assets/ProductImages/chartlar/yerliuretimsiyah1.jpg\"></a></li><li>Bu üründen yalnızca 10 adet sipariş verilebilir. 10 adetin üzerindeki siparişleri Trendyol iptal etme hakkını saklı tutar.</li><li>Kampanya fiyatından satılmak üzere 100 adetten fazla stok sunulmuştur.</li></span></ul>",
+    "link": "https://www.trendyol.com/trendyolmilla/bej-bugs-bunny-lisansli-on-ve-sirt-baskili-oversize-orme-sweatshirt-twoaw21sw0217-p-47295334",
+    "images": [
+      "https://cdn.dsmcdn.com/ty12/product/media/images/20200904/12/9651266/83516566/1/1_org.jpg",
+      "https://cdn.dsmcdn.com/ty12/product/media/images/20200904/12/9651266/83516566/2/2_org.jpg",
+      "https://cdn.dsmcdn.com/ty11/product/media/images/20200904/12/9651266/83516566/3/3_org.jpg",
+      "https://cdn.dsmcdn.com/ty11/product/media/images/20200904/12/9651266/83516566/4/4_org.jpg"
+    ],
+    "price": 99.99,
+    "body": [
+      {
+        "type": "XS",
+        "count": 200
+      },
+      {
+        "type": "S",
+        "count": 200
+      },
+      {
+        "type": "M",
+        "count": 200
+      },
+      {
+        "type": "L",
+        "count": 200
+      }
+    ],
+    "discount": 0,
+    "properties": {
+      "material": {
+        "name": "Materyal",
+        "value": "Pamuklu"
+      },
+      "model": {
+        "name": "Model",
+        "value": "Lisanslı"
+      },
+      "mold": {
+        "name": "Kalıp",
+        "value": "Oversize"
+      },
+      "drawing": {
+        "name": "Desen",
+        "value": "Sırt Baskılı"
+      },
+      "arm_type": {
+        "name": "Kol Tipi",
+        "value": "Uzun Kol"
+      },
+      "fabric_type": {
+        "name": "Kumaş Tipi",
+        "value": "Örme"
+      },
+      "style": {
+        "name": "Stil",
+        "value": "Trend"
+      },
+      "collar": {
+        "name": "Yaka",
+        "value": "Kapüşonlu"
+      },
+      "color": {
+        "name": "Renk",
+        "value": "Bej"
+      }
+    },
+    "comments": [
+      {
+        "user_id": 1000,
+        "name": "Asena Altıntaş",
+        "display_name": true,
+        "comment": "Bayıldımmm renkleri kombinasyonu çok güzel. Kendi bedeninizi alabilirsiniz.",
+        "star": 5,
+        "date": "16 Eylül 2020"
+      },
+      {
+        "user_id": 1001,
+        "name": "Namık Bay",
+        "display_name": false,
+        "comment": "ürün harika biraz bol isstediğim için m aldım ama mankendeki gibi durdu rengi bundan biraz açık krem rengi olarak geliyor ürün @cerenceylan tavsiyesiyle aldım bayıldım",
+        "star": 5,
+        "date": "13 Eylül 2020"
+      },
+      {
+        "user_id": 1002,
+        "name": "John Doe",
+        "display_name": false,
+        "comment": "Fena sayılmaz ama bilerek bedenimden büyük söyledim azcık oversize dursun diye boyu kısa kalıyor. Rengi bejden ziyade ekru.",
+        "star": 3,
+        "date": "12 Eylül 2020"
+      }
+    ]
+  }
+]

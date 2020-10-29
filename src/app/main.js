@@ -6,8 +6,6 @@ import './assets/common.css';
 import './assets/icomoon.css';
 import './assets/home.css';
 import "./assets/app.css";
-
-
 Vue.config.productionTip = false
 
 new Vue({

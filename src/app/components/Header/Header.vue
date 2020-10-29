@@ -36,16 +36,7 @@
                                         <div class="nav-span">Favorilerim</div>
                                     </li>
                                     <li id="myBasketListItem" class="basket-button-container">
-                                        <div class="icon-container">
-                                            <a href="/sepetim#/basket"> <i class="icon navigation-icon-basket"></i> </a>
-                                        </div>
-                                        <div class="nav-span">Sepetim</div>
-                                        <div class="basket-item-count" style="display: none;">
-                                            <span id="basketItemCount"></span>
-                                        </div>
-                                        <div id="headerBasketContentArea">
-                                            <div id="basketPreviewcontent" class="basket-menu-container"></div>
-                                        </div>
+                                        <HeaderBasket/>
                                     </li>
                                 </ul>
                             </div>
@@ -63,9 +54,10 @@
     import Autocomplete from "@/app/components/Autocomplete/Autocomplete";
     import GuestNavigation from "@/app/components/Header/GuestNavigation";
     import AccountNavigation from "@/app/components/Header/AccountNavigation";
+    import HeaderBasket from "@/app/components/Header/HeaderBasket";
     export default {
         name: "Header",
-        components: {AccountNavigation, GuestNavigation, Autocomplete, HeaderTop},
+        components: {HeaderBasket, AccountNavigation, GuestNavigation, Autocomplete, HeaderTop},
         computed: {
             isLoggedIn(){
                 return this.$store.getters["account/isLoggedIn"];

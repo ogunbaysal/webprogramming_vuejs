@@ -42,6 +42,7 @@ export default {
             e.preventDefault();
             console.log('search-item-clicked');
             this.$store.dispatch("autocomplete/addHistory", this.item);
+            this.$store.dispatch("basket/addBasketItem", this.item);
         }
     }
 }

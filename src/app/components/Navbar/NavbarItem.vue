@@ -30,13 +30,12 @@
 </template>
 
 <script>
-import {Category} from "@/models/models";
 
 export default {
     name: "NavbarItem",
     props: {
         parent: {
-            type: Category,
+            type: Object,
             required: true
         }
     },

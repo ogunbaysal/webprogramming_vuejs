@@ -1,12 +1,12 @@
-import ProductRepository from "@/repositories/ProductRepository";
-import CategoryRepository from "@/repositories/CategoryRepository";
+import {db} from "@/app/firebase";
 
 const autocomplete = {
     namespaced: true,
     state: () => ({
         param: '',
         history: [],
-        results: []
+        product_results: [],
+        category_results: []
     }),
     mutations: {
         _addHistory(state, item) {
@@ -15,8 +15,11 @@ const autocomplete = {
         _setParam(state, param){
             state.param = param;
         },
-        _setResults(state, results) {
-            state.results = results;
+        _setProductResults(state, results) {
+            state.product_results = results;
+        },
+        _setCategoryResults(state, results) {
+            state.category_results = results;
         },
         _clearHistory(state){
             state.history = [];
@@ -31,11 +34,26 @@ const autocomplete = {
         },
         setParam({commit}, payload) {
             commit('_setParam', payload);
-            const searchResult = [
-                ...ProductRepository.searchProducts(payload),
-                ...CategoryRepository.searchCategories(payload)
-            ]
-            commit('_setResults', searchResult);
+            db.collection('products').get().then(snapshot => {
+                const tempData = [];
+                snapshot.forEach(item => {
+                    const data = item.data();
+                    if(data.title.toLowerCase().includes(payload.toLowerCase())){
+                        tempData.push(data);
+                    }
+                })
+                commit('_setProductResults', tempData);
+            });
+            db.collection('categories').get().then(snapshot => {
+                const tempData = [];
+                snapshot.forEach(item => {
+                    const data = item.data();
+                    if(data.title.toLowerCase().includes(payload.toLowerCase())){
+                        tempData.push(data);
+                    }
+                })
+                commit('_setCategoryResults', tempData);
+            });
         }
     },
     getters: {
@@ -46,7 +64,10 @@ const autocomplete = {
             return state.history;
         },
         getResults(state){
-            return state.results;
+            return [
+                ...state.category_results,
+                ...state.product_results
+            ]
         }
     }
 }

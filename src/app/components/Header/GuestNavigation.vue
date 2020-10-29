@@ -164,7 +164,6 @@ export default {
     position: absolute;
     z-index: 901;
     background-color: #fff;
-    display: none;
     box-shadow: 0 4px 3px 1px rgba(0, 0, 0, .07)
 }
 
