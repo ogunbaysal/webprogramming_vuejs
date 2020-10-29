@@ -1,0 +1,421 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url(https://cdn.dsmcdn.com/frontend/web/production/icomoon-1af27ec373.eot);
+    src: url(https://cdn.dsmcdn.com/frontend/web/production/icomoon-1af27ec373.eot#iefix) format('embedded-opentype'), url(https://cdn.dsmcdn.com/frontend/web/production/icomoon-b7161189a6.woff2) format('woff2'), url(https://cdn.dsmcdn.com/frontend/web/production/icomoon-09d5fc22eb.ttf) format('truetype'), url(https://cdn.dsmcdn.com/frontend/web/production/icomoon-69ac46b206.woff) format('woff'), url(https://cdn.dsmcdn.com/frontend/web/production/icomoon-9190411f54.svg) format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: block
+}
+
+[class*=" i-"], [class^=i-] {
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.i-mail:before {
+    content: "\e933"
+}
+
+.i-clipboard:before {
+    content: "\e950";
+    color: #999
+}
+
+.i-regular-close:before {
+    content: "\e94e";
+    color: #666
+}
+
+.i-external-url:before {
+    content: "\e94f"
+}
+
+.i-delivery-point:before {
+    content: "\e94d"
+}
+
+.i-marker-locker-selected .path1:before {
+    content: "\e942";
+    color: #fff
+}
+
+.i-marker-locker-selected .path2:before {
+    content: "\e943";
+    margin-left: -.888671875em;
+    color: #0bc15c
+}
+
+.i-marker-locker-selected .path3:before {
+    content: "\e944";
+    margin-left: -.888671875em;
+    color: #0bc15c
+}
+
+.i-marker-locker-selected .path4:before {
+    content: "\e945";
+    margin-left: -.888671875em;
+    color: #0bc15c
+}
+
+.i-marker-locker-selected .path5:before {
+    content: "\e946";
+    margin-left: -.888671875em;
+    color: #0bc15c
+}
+
+.i-marker-locker-selected .path6:before {
+    content: "\e947";
+    margin-left: -.888671875em;
+    color: #fff
+}
+
+.i-marker-delivery-point-selected .path1:before {
+    content: "\e948";
+    color: #0bc15c
+}
+
+.i-marker-delivery-point-selected .path2:before {
+    content: "\e949";
+    margin-left: -.8125em;
+    color: #fff
+}
+
+.i-marker-delivery-point-selected .path3:before {
+    content: "\e94a";
+    margin-left: -.8125em;
+    color: #0bc15c
+}
+
+.i-marker-delivery-point-selected .path4:before {
+    content: "\e94b";
+    margin-left: -.8125em;
+    color: #0bc15c
+}
+
+.i-marker-delivery-point-selected .path5:before {
+    content: "\e94c";
+    margin-left: -.8125em;
+    color: #fff
+}
+
+.i-plus:before {
+    content: "\e941"
+}
+
+.i-locker:before {
+    content: "\e940";
+    color: #f2ba1a
+}
+
+.i-marker-delivery-point-orange .path1:before {
+    content: "\e934";
+    color: #fff
+}
+
+.i-marker-delivery-point-orange .path2:before {
+    content: "\e935";
+    margin-left: -.794921875em;
+    color: #f27a1a
+}
+
+.i-marker-delivery-point-white .path1:before {
+    content: "\e936";
+    color: #f27a1a
+}
+
+.i-marker-delivery-point-white .path2:before {
+    content: "\e937";
+    margin-left: -.7958984375em;
+    color: #fff
+}
+
+.i-marker-delivery-point-white .path3:before {
+    content: "\e938";
+    margin-left: -.7958984375em;
+    color: #f27a1a
+}
+
+.i-marker-locker-white .path1:before {
+    content: "\e939";
+    color: #fff
+}
+
+.i-marker-locker-white .path2:before {
+    content: "\e93a";
+    margin-left: -.7958984375em;
+    color: #f2ba1a
+}
+
+.i-marker-locker-white .path3:before, .i-marker-locker-white .path4:before {
+    content: "\e93b";
+    margin-left: -.7958984375em;
+    color: #f2ba1a
+}
+
+.i-marker-locker-white .path4:before {
+    content: "\e93c"
+}
+
+.i-marker-locker-yellow .path1:before {
+    content: "\e93d";
+    color: #f2ba1a
+}
+
+.i-marker-locker-yellow .path2:before {
+    content: "\e93e";
+    margin-left: -.794921875em;
+    color: #fff
+}
+
+.i-marker-locker-yellow .path3:before {
+    content: "\e93f";
+    margin-left: -.794921875em;
+    color: #fff
+}
+
+.i-location-pin-2:before {
+    content: "\e932";
+    color: #f27a1a
+}
+
+.i-eye-open:before {
+    content: "\e931"
+}
+
+.i-eye-close:before {
+    content: "\e930"
+}
+
+.i-exclamation-mark:before {
+    content: "\e92d"
+}
+
+.i-chat:before {
+    content: "\e92c"
+}
+
+.i-alarm:before {
+    content: "\e92b"
+}
+
+.i-circled-document-approved .path1:before {
+    content: "\e913";
+    color: #0bc15c
+}
+
+.i-circled-document-approved .path2:before {
+    content: "\e914";
+    margin-left: -1.0419921875em;
+    color: #0bc15c
+}
+
+.i-circled-document-approved .path3:before {
+    content: "\e915";
+    margin-left: -1.0419921875em;
+    color: #fff
+}
+
+.i-circled-document-error .path1:before {
+    content: "\e916";
+    color: #999
+}
+
+.i-circled-document-error .path2:before {
+    content: "\e917";
+    margin-left: -1.021484375em;
+    color: #b30000
+}
+
+.i-circled-document-error .path3:before {
+    content: "\e918";
+    margin-left: -1.021484375em;
+    color: #fff
+}
+
+.i-circled-document-inprogress .path1:before {
+    content: "\e919";
+    color: #f27a1a
+}
+
+.i-circled-document-inprogress .path2:before {
+    content: "\e91a";
+    margin-left: -1.0107421875em;
+    color: #f27a1a
+}
+
+.i-circled-document-inprogress .path3:before {
+    content: "\e91b";
+    margin-left: -1.0107421875em;
+    color: #fff
+}
+
+.i-circled-document:before {
+    content: "\e90e"
+}
+
+.i-arrow-right:before {
+    content: "\e909"
+}
+
+.i-approved:before {
+    content: "\e907";
+    color: #f27a1a
+}
+
+.i-seller:before {
+    content: "\e905";
+    color: #666
+}
+
+.i-package:before {
+    content: "\e904";
+    color: #f27a1a
+}
+
+.i-package-hand .path1:before {
+    content: "\e922";
+    color: #000
+}
+
+.i-package-hand .path2:before {
+    content: "\e923";
+    margin-left: -1.068359375em;
+    color: #ffd4b2
+}
+
+.i-package-hand .path3:before {
+    content: "\e924";
+    margin-left: -1.068359375em;
+    color: #fff
+}
+
+.i-package-hand .path4:before, .i-package-hand .path5:before {
+    content: "\e925";
+    margin-left: -1.068359375em;
+    color: #f27a1a
+}
+
+.i-package-hand .path5:before {
+    content: "\e926"
+}
+
+.i-package-hand .path6:before {
+    content: "\e927";
+    margin-left: -1.068359375em;
+    color: #fff
+}
+
+.i-package-hand .path7:before {
+    content: "\e928";
+    margin-left: -1.068359375em;
+    color: #f27a1a
+}
+
+.i-package-hand .path8:before {
+    content: "\e929";
+    margin-left: -1.068359375em;
+    color: #000
+}
+
+.i-radio-selected:before {
+    content: "\e91e";
+    color: #f27a1a
+}
+
+.i-radio-unselected:before {
+    content: "\e91f";
+    color: #e6e6e6
+}
+
+.i-search:before {
+    content: "\e920"
+}
+
+.i-clock:before {
+    content: "\e921"
+}
+
+.i-unavailable-point:before {
+    content: "\e91d"
+}
+
+.i-location-pin:before {
+    content: "\e91c"
+}
+
+.i-checkmark:before {
+    content: "\e911"
+}
+
+.i-warning:before {
+    content: "\e912"
+}
+
+.i-bold-close:before {
+    content: "\e90f";
+    color: #666
+}
+
+.i-circled-close:before {
+    content: "\e90d"
+}
+
+.i-close:before {
+    content: "\e90c"
+}
+
+.i-bill:before {
+    content: "\e90a"
+}
+
+.i-agency:before {
+    content: "\e90b"
+}
+
+.i-document:before {
+    content: "\e908"
+}
+
+.i-wallet:before {
+    content: "\e906"
+}
+
+.i-bagg:before {
+    content: "\e900"
+}
+
+.i-heart:before {
+    content: "\e901"
+}
+
+.i-user:before {
+    content: "\e910"
+}
+
+.i-open-eye:before {
+    content: "\e902"
+}
+
+.i-trash:before {
+    content: "\e903"
+}
+
+.i-card:before {
+    content: "\e92a";
+    color: #f27a1a
+}
+
+.i-facebook:before {
+    content: "\e92e"
+}
+
+.i-google:before {
+    content: "\e92f"
+}

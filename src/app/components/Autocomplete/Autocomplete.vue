@@ -1,34 +1,69 @@
 <template>
-    <div class="autocomplete">
+    <div class="autocomplete" @mouseover="display_suggestions = true" @mouseleave="display_suggestions = false">
         <div class="search-box-container">
-            <input v-on:keyup="onChange()" @focus="display_suggestions = true" @blur="display_suggestions = false" v-model="param" class="search-box" tabindex="1" placeholder="Aradığınız ürün, kategori veya markayı yazınız" maxlength="50" autocomplete="off" type="text">
+            <input v-model="param" class="search-box" tabindex="1" placeholder="Aradığınız ürün, kategori veya markayı yazınız" maxlength="50" autocomplete="off" type="text">
             <i class="search-icon"></i>
         </div>
         <div v-if="display_suggestions" class="suggestions-container">
-            <div class="suggestion-result">
+            <div class="suggestion-result" v-if="display_history">
                 <div class="suggestion-result-title">
-                    <span class="suggestion-title main">{{ title }}</span>
+                    <span class="suggestion-title main">Geçmiş Aramalar</span>
+                    <span class="clear" @click="clearSearchHistory">Temizle</span>
+                </div>
+                <Suggestion v-for="item in history" :key="item.title" :item="item"/>
+            </div>
+            <div class="suggestion-result" v-if="display_history === false">
+                <div class="suggestion-result-title">
+                    <span class="suggestion-title main">Arama Sonuçları</span>
                     <span class="clear"></span>
                 </div>
+                <Suggestion v-for="item in results" :key="item.title" :item="item"/>
             </div>
         </div>
     </div>
 </template>
 
 <script>
+    import Suggestion from "@/app/components/Autocomplete/Suggestion";
     export default {
         name: "Autocomplete",
-        components: {},
+        components: {Suggestion},
+        computed: {
+            param: {
+                get(){
+                    return this.$store.getters["autocomplete/getParam"];
+                },
+                set(value){
+                    this.display_history = value.length === 0;
+                    this.title = value.length === 0 ? 'Geçmiş Aramalar' : 'İlgili Sonuçlar';
+                    this.$store.dispatch("autocomplete/setParam", value);
+                }
+            },
+            history(){
+                return this.$store.getters["autocomplete/getHistory"];
+            },
+            results(){
+                return this.$store.getters["autocomplete/getResults"];
+            }
+        },
         data: function (){
             return {
-                param: '',
+                display_history: true,
                 title: 'Geçmiş Aramalar',
                 display_suggestions: false
             }
         },
         methods: {
-            onChange: () => {
-                this.title = this.param.length > 0 ? 'İlgili Sonuçlar' : 'Geçmiş Aramalar';
+            clearSearchHistory(){
+                this.$store.dispatch('autocomplete/clearHistory');
+            }
+        },
+        watch: {
+            show: function (current, old){
+                let that = this;
+                if(old === false){
+                    that.nextTick(() => that.$refs.p.focus());
+                }
             }
         }
     }

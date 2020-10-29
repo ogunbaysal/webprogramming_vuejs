@@ -1,25 +1,47 @@
 <template>
-    <a href="{{ link }}" class="suggestion">
-        <span>{{ text }}</span>
+    <a :href="display_link" @click="onClick" class="suggestion">
+        <span v-html="display_text"></span>
+        <span class="label" v-if="is_category">Kategori</span>
     </a>
 </template>
 
 <script>
 export default {
     name: "Suggestion",
-    data: function (){
-        return {
-
-        };
+    computed: {
+        param(){
+            return this.$store.getters["autocomplete/getParam"];
+        },
+        display_text(){
+            if(this.item === undefined) return this.text;
+            return this.item.title.replace(this.param, this.param.bold());
+        },
+        display_link(){
+            if(this.item === undefined) return this.link;
+            return this.item.link;
+        },
+        is_category(){
+          if(this.item === undefined) return false;
+            return this.item.constructor.name === 'Category';
+        }
     },
     props: {
+        item: {
+            type: Object
+        },
         text: {
             type: String,
-            required: true
         },
         link: {
             type: String,
-            required: true
+        }
+    },
+    methods: {
+        onClick(e){
+            //test purpose
+            e.preventDefault();
+            console.log('search-item-clicked');
+            this.$store.dispatch("autocomplete/addHistory", this.item);
         }
     }
 }
