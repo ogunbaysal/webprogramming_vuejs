@@ -1,14 +1,26 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from "@/app/views/Home/Home";
+import Basket from "@/app/views/Basket/Basket";
+import Market from "@/app/views/Market/Market";
 
 Vue.use(VueRouter)
 
 const routes = [
     {
         path: '/',
-        name: 'En Trend &#220;r&#252;nler T&#252;rkiye&#39;nin Online Alışveriş Sitesi Trendyol&#39;da',
+        name: 'Trendyol',
         component: Home
+    },
+    {
+        path: '/sepetim',
+        name: 'Sepetim - Trendyol',
+        component: Basket
+    },
+    {
+        path: '/urunler',
+        name: 'Ürünler - Trendyol',
+        component: Market
     },
     // {
     //     path: '/about',

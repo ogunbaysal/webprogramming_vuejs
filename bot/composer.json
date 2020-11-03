@@ -1,0 +1,16 @@
+{
+    "name": "ogun/bot",
+    "authors": [
+        {
+            "name": "Ogün Baysal",
+            "email": "ogunbaysaltr@gmail.com"
+        }
+    ],
+    "require": {
+        "php-curl-class/php-curl-class": "^8.8",
+        "larapack/dd": "^1.1",
+        "cocur/slugify": "^4.0",
+      "ext-json": "*",
+      "ext-dom": "*"
+    }
+}

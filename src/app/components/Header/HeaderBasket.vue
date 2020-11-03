@@ -8,7 +8,7 @@
             <span id="basketItemCount">{{ basket.length }}</span>
         </div>
         <div id="headerBasketContentArea">
-            <div id="basketPreviewcontent" class="basket-menu-container" v-show="hover">
+            <div id="basketPreviewcontent" class="basket-menu-container" v-show="hover && basket.length > 0">
                 <div class="slideContainer">
 
                     <div class="slideUpBox">
@@ -17,9 +17,9 @@
                     </div>
                     <ul class="basketProductList" :data-product-count="basket.length">
                         <li v-for="basketItem in basket" :key="basketItem.id">
-                            <a href="/lc-waikiki/kadin-orta-rodeo-jeans-9wj436z8-p-31096356?boutiqueId=533989&amp;merchantId=4171">
+                            <a :href="productUrl(basketItem.item.id)">
                                 <div class="imageBox">
-                                    <img src="https://img-trendyol.mncdn.com//assets/product/images/16281/55963734/1/1_org_zoom.jpg" alt="">
+                                    <img :src="basketItem.item.images[0]" :alt="basketItem.item.title">
                                 </div>
                                 <div class="productInfoBox">
                                     <p>
@@ -29,7 +29,7 @@
                                         <span><label class="productQuantity">Adet:</label> {{ basketItem.amount }}</span>
                                     </p>
                                     <p>
-                                        <span class="salePrice">{{  basketItem.item.price * basketItem.item.amount  }} TL</span>
+                                        <span class="salePrice">{{  basketItem.item.price * basketItem.amount  }} TL</span>
                                     </p>
                                 </div>
                             </a>
@@ -42,7 +42,7 @@
                     </div>
                 </div>
                 <div class="productPriceBox">
-                    <a href="/sepetim#basket" class="goBasket" >Sepete Git</a>
+                    <a href="/sepetim" class="goBasket" >Sepete Git</a>
 
                     <a href="javascript:void(0)" class="CompleteOrder">Siparişi Tamamla</a>
 
@@ -64,6 +64,11 @@ export default {
         return {
           hover: false
         };
+    },
+    methods: {
+        productUrl(id){
+            return '/urun/' + id;
+        }
     }
 }
 </script>

@@ -1,13 +1,13 @@
 <template>
     <li class="tab-link" @mouseover="hover = true" @mouseleave="hover = false">
-        <a :href="parent.link" class="category-header">{{ parent.title }}</a>
+        <a :href="parent.slug" class="category-header">{{ parent.title }}</a>
         <div class="sub-nav" :class="hover ? 'animation enable' : ''" :id="'sub-nav-'+ parent.title">
             <div class="sub-nav-center">
                 <div class="sub-nav-outer">
                     <div class="normal-column" v-for="item in parent.children" :key="item.title">
-                        <div class="category-box"><a :href="item.link" class="sub-category-header">{{ item.title }}</a>
+                        <div class="category-box"><a :href="item.slug" class="sub-category-header">{{ item.title }}</a>
                             <ul class="sub-item-list">
-                                <li v-for="child in item.children" :key="child.title"><a :href="child.title">{{ child.title }}</a></li>
+                                <li v-for="child in item.children" :key="child.title"><a :href="child.slug">{{ child.title }}</a></li>
                             </ul>
                         </div>
                     </div>

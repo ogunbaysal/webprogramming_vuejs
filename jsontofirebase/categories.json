@@ -1,0 +1,1169 @@
+{
+    "categories": [{
+            "title": "KADIN",
+            "slug": "kadin",
+            "children": [{
+                    "title": "Giyim",
+                    "slug": "kadin-giyim",
+                    "children": [{
+                            "title": "Elbise",
+                            "slug": "kadin-giyim-elbise"
+                        },
+                        {
+                            "title": "Sweatshirt",
+                            "slug": "kadin-giyim-sweatshirt"
+                        },
+                        {
+                            "title": "T-shirt",
+                            "slug": "kadin-giyim-t-shirt"
+                        },
+                        {
+                            "title": "Pantolon",
+                            "slug": "kadin-giyim-pantolon"
+                        },
+                        {
+                            "title": "Gömlek",
+                            "slug": "kadin-giyim-goemlek"
+                        },
+                        {
+                            "title": "Mont",
+                            "slug": "kadin-giyim-mont"
+                        },
+                        {
+                            "title": "Eşofman",
+                            "slug": "kadin-giyim-esofman"
+                        },
+                        {
+                            "title": "Trençkot",
+                            "slug": "kadin-giyim-trenckot"
+                        },
+                        {
+                            "title": "Etek",
+                            "slug": "kadin-giyim-etek"
+                        },
+                        {
+                            "title": "Tayt",
+                            "slug": "kadin-giyim-tayt"
+                        },
+                        {
+                            "title": "Tesettür",
+                            "slug": "kadin-giyim-tesettuer"
+                        },
+                        {
+                            "title": "Büyük Beden",
+                            "slug": "kadin-giyim-bueyuek-beden"
+                        },
+                        {
+                            "title": "Plaj Giyim",
+                            "slug": "kadin-giyim-plaj-giyim"
+                        }
+                    ]
+                },
+                {
+                    "title": "Ayakkabı",
+                    "slug": "kadin-ayakkabi",
+                    "children": [{
+                            "title": "Topuklu Ayakkabı",
+                            "slug": "kadin-ayakkabi-topuklu-ayakkabi"
+                        },
+                        {
+                            "title": "Sneaker",
+                            "slug": "kadin-ayakkabi-sneaker"
+                        },
+                        {
+                            "title": "Günlük Ayakkabı ",
+                            "slug": "kadin-ayakkabi-guenluek-ayakkabi"
+                        },
+                        {
+                            "title": "Bot & Bootie",
+                            "slug": "kadin-ayakkabi-bot-bootie"
+                        },
+                        {
+                            "title": "Terlik",
+                            "slug": "kadin-ayakkabi-terlik"
+                        }
+                    ]
+                },
+                {
+                    "title": "İç Giyim",
+                    "slug": "kadin-ic-giyim",
+                    "children": [{
+                            "title": "Pijama Takımı",
+                            "slug": "kadin-ic-giyim-pijama-takimi"
+                        },
+                        {
+                            "title": "Gecelik",
+                            "slug": "kadin-ic-giyim-gecelik"
+                        },
+                        {
+                            "title": "Sütyen",
+                            "slug": "kadin-ic-giyim-suetyen"
+                        },
+                        {
+                            "title": "İç Çamaşırı Takımları",
+                            "slug": "kadin-ic-giyim-ic-camasiri-takimlari"
+                        },
+                        {
+                            "title": "Fantezi Giyim",
+                            "slug": "kadin-ic-giyim-fantezi-giyim"
+                        },
+                        {
+                            "title": "Çorap",
+                            "slug": "kadin-ic-giyim-corap"
+                        }
+                    ]
+                },
+                {
+                    "title": "Kozmetik & Kişisel Bakım",
+                    "slug": "kadin-kozmetik-kisisel-bakim",
+                    "children": [{
+                            "title": "Parfüm",
+                            "slug": "kadin-kozmetik-kisisel-bakim-parfuem"
+                        },
+                        {
+                            "title": "Göz Makyajı",
+                            "slug": "kadin-kozmetik-kisisel-bakim-goez-makyaji"
+                        },
+                        {
+                            "title": "Cilt Bakım",
+                            "slug": "kadin-kozmetik-kisisel-bakim-cilt-bakim"
+                        },
+                        {
+                            "title": "Saç Bakımı",
+                            "slug": "kadin-kozmetik-kisisel-bakim-sac-bakimi"
+                        },
+                        {
+                            "title": "Makyaj",
+                            "slug": "kadin-kozmetik-kisisel-bakim-makyaj"
+                        },
+                        {
+                            "title": "Ağız Bakım",
+                            "slug": "kadin-kozmetik-kisisel-bakim-agiz-bakim"
+                        },
+                        {
+                            "title": "Cinsel Sağlık",
+                            "slug": "kadin-kozmetik-kisisel-bakim-cinsel-saglik"
+                        },
+                        {
+                            "title": "Hijyenik Ped",
+                            "slug": "kadin-kozmetik-kisisel-bakim-hijyenik-ped"
+                        },
+                        {
+                            "title": "Epilasyon Ürünleri",
+                            "slug": "kadin-kozmetik-kisisel-bakim-epilasyon-ueruenleri"
+                        }
+                    ]
+                },
+                {
+                    "title": "Spor & Outdoor",
+                    "slug": "kadin-spor-outdoor",
+                    "children": [{
+                            "title": "Sweatshirt",
+                            "slug": "kadin-spor-outdoor-sweatshirt"
+                        },
+                        {
+                            "title": "T-shirt",
+                            "slug": "kadin-spor-outdoor-t-shirt"
+                        },
+                        {
+                            "title": "Spor Sütyeni",
+                            "slug": "kadin-spor-outdoor-spor-suetyeni"
+                        },
+                        {
+                            "title": "Tayt",
+                            "slug": "kadin-spor-outdoor-tayt"
+                        },
+                        {
+                            "title": "Eşofman",
+                            "slug": "kadin-spor-outdoor-esofman"
+                        },
+                        {
+                            "title": "Koşu Ayakkabısı ",
+                            "slug": "kadin-spor-outdoor-kosu-ayakkabisi"
+                        },
+                        {
+                            "title": "Spor Çantası",
+                            "slug": "kadin-spor-outdoor-spor-cantasi"
+                        },
+                        {
+                            "title": "Spor Ekipmanları",
+                            "slug": "kadin-spor-outdoor-spor-ekipmanlari"
+                        },
+                        {
+                            "title": "Outdoor Ayakkabı",
+                            "slug": "kadin-spor-outdoor-outdoor-ayakkabi"
+                        },
+                        {
+                            "title": "Outdoor Ekipmanları",
+                            "slug": "kadin-spor-outdoor-outdoor-ekipmanlari"
+                        },
+                        {
+                            "title": "Sporcu Besinleri",
+                            "slug": "kadin-spor-outdoor-sporcu-besinleri"
+                        },
+                        {
+                            "title": "Sporcu Aksesuarları",
+                            "slug": "kadin-spor-outdoor-sporcu-aksesuarlari"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "ERKEK",
+            "slug": "erkek",
+            "children": [{
+                    "title": "Giyim",
+                    "slug": "erkek-giyim",
+                    "children": [{
+                            "title": "T-shirt",
+                            "slug": "erkek-giyim-t-shirt"
+                        },
+                        {
+                            "title": "Sweatshirt",
+                            "slug": "erkek-giyim-sweatshirt"
+                        },
+                        {
+                            "title": "Gömlek",
+                            "slug": "erkek-giyim-goemlek"
+                        },
+                        {
+                            "title": "Eşofman",
+                            "slug": "erkek-giyim-esofman"
+                        },
+                        {
+                            "title": "Pantolon",
+                            "slug": "erkek-giyim-pantolon"
+                        },
+                        {
+                            "title": "Ceket",
+                            "slug": "erkek-giyim-ceket"
+                        },
+                        {
+                            "title": "Jean",
+                            "slug": "erkek-giyim-jean"
+                        },
+                        {
+                            "title": "Polo Yaka T-shirt",
+                            "slug": "erkek-giyim-polo-yaka-t-shirt"
+                        },
+                        {
+                            "title": "Takım Elbise",
+                            "slug": "erkek-giyim-takim-elbise"
+                        },
+                        {
+                            "title": "Şort",
+                            "slug": "erkek-giyim-sort"
+                        },
+                        {
+                            "title": "Deniz Şortu",
+                            "slug": "erkek-giyim-deniz-sortu"
+                        }
+                    ]
+                },
+                {
+                    "title": "Ayakkabı",
+                    "slug": "erkek-ayakkabi",
+                    "children": [{
+                            "title": "Spor Ayakkabı",
+                            "slug": "erkek-ayakkabi-spor-ayakkabi"
+                        },
+                        {
+                            "title": "Günlük Ayakkabı",
+                            "slug": "erkek-ayakkabi-guenluek-ayakkabi"
+                        },
+                        {
+                            "title": "Sneaker",
+                            "slug": "erkek-ayakkabi-sneaker"
+                        },
+                        {
+                            "title": "Klasik",
+                            "slug": "erkek-ayakkabi-klasik"
+                        },
+                        {
+                            "title": "Koşu & Antrenman",
+                            "slug": "erkek-ayakkabi-kosu-antrenman"
+                        }
+                    ]
+                },
+                {
+                    "title": "Saat & Gözlük & Aksesuar",
+                    "slug": "erkek-saat-goezluek-aksesuar",
+                    "children": [{
+                            "title": "Saat",
+                            "slug": "erkek-saat-goezluek-aksesuar-saat"
+                        },
+                        {
+                            "title": "Güneş Gözlüğü",
+                            "slug": "erkek-saat-goezluek-aksesuar-guenes-goezluegue"
+                        },
+                        {
+                            "title": "Cüzdan",
+                            "slug": "erkek-saat-goezluek-aksesuar-cuezdan"
+                        },
+                        {
+                            "title": "Kemer",
+                            "slug": "erkek-saat-goezluek-aksesuar-kemer"
+                        },
+                        {
+                            "title": "Çanta",
+                            "slug": "erkek-saat-goezluek-aksesuar-canta"
+                        },
+                        {
+                            "title": "Erkek Takı",
+                            "slug": "erkek-saat-goezluek-aksesuar-erkek-taki"
+                        }
+                    ]
+                },
+                {
+                    "title": "Spor & Outdoor",
+                    "slug": "erkek-spor-outdoor",
+                    "children": [{
+                            "title": "Eşofman",
+                            "slug": "erkek-spor-outdoor-esofman"
+                        },
+                        {
+                            "title": "Spor Ayakkabı",
+                            "slug": "erkek-spor-outdoor-spor-ayakkabi"
+                        },
+                        {
+                            "title": "T-shirt",
+                            "slug": "erkek-spor-outdoor-t-shirt"
+                        },
+                        {
+                            "title": "Sweatshirt",
+                            "slug": "erkek-spor-outdoor-sweatshirt"
+                        },
+                        {
+                            "title": "Forma",
+                            "slug": "erkek-spor-outdoor-forma"
+                        },
+                        {
+                            "title": "Outdoor Giyim",
+                            "slug": "erkek-spor-outdoor-outdoor-giyim"
+                        },
+                        {
+                            "title": "Outdoor Ayakkabı",
+                            "slug": "erkek-spor-outdoor-outdoor-ayakkabi"
+                        },
+                        {
+                            "title": "Spor Ekipmanları",
+                            "slug": "erkek-spor-outdoor-spor-ekipmanlari"
+                        },
+                        {
+                            "title": "Outdoor Ekipmanları",
+                            "slug": "erkek-spor-outdoor-outdoor-ekipmanlari"
+                        },
+                        {
+                            "title": "Sporcu Besinleri",
+                            "slug": "erkek-spor-outdoor-sporcu-besinleri"
+                        },
+                        {
+                            "title": "Sporcu Aksesuarları",
+                            "slug": "erkek-spor-outdoor-sporcu-aksesuarlari"
+                        }
+                    ]
+                },
+                {
+                    "title": "Elektronik",
+                    "slug": "erkek-elektronik",
+                    "children": [{
+                            "title": "Tıraş Makinesi",
+                            "slug": "erkek-elektronik-tiras-makinesi"
+                        },
+                        {
+                            "title": "Cep Telefonu",
+                            "slug": "erkek-elektronik-cep-telefonu"
+                        },
+                        {
+                            "title": "Akıllı Saat",
+                            "slug": "erkek-elektronik-akilli-saat"
+                        },
+                        {
+                            "title": "Bilgisayar",
+                            "slug": "erkek-elektronik-bilgisayar"
+                        },
+                        {
+                            "title": "Oyun & Konsollar",
+                            "slug": "erkek-elektronik-oyun-konsollar"
+                        },
+                        {
+                            "title": "Akıllı Bileklik",
+                            "slug": "erkek-elektronik-akilli-bileklik"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "ÇOCUK",
+            "slug": "cocuk",
+            "children": [{
+                    "title": "Bebek",
+                    "slug": "cocuk-bebek",
+                    "children": [{
+                            "title": "Bebek Takımları",
+                            "slug": "cocuk-bebek-bebek-takimlari"
+                        },
+                        {
+                            "title": "Ayakkabı",
+                            "slug": "cocuk-bebek-ayakkabi"
+                        },
+                        {
+                            "title": "Hastane Çıkışı",
+                            "slug": "cocuk-bebek-hastane-cikisi"
+                        },
+                        {
+                            "title": "Tulum & Salopet",
+                            "slug": "cocuk-bebek-tulum-salopet"
+                        },
+                        {
+                            "title": "Body & Zıbın",
+                            "slug": "cocuk-bebek-body-zibin"
+                        },
+                        {
+                            "title": "T-shirt & Atlet",
+                            "slug": "cocuk-bebek-t-shirt-atlet"
+                        },
+                        {
+                            "title": "Elbise",
+                            "slug": "cocuk-bebek-elbise"
+                        },
+                        {
+                            "title": "Şort",
+                            "slug": "cocuk-bebek-sort"
+                        }
+                    ]
+                },
+                {
+                    "title": "Kız Çocuk",
+                    "slug": "cocuk-kiz-cocuk",
+                    "children": [{
+                            "title": "Elbise",
+                            "slug": "cocuk-kiz-cocuk-elbise"
+                        },
+                        {
+                            "title": "Sweatshirt",
+                            "slug": "cocuk-kiz-cocuk-sweatshirt"
+                        },
+                        {
+                            "title": "Spor Ayakkabı",
+                            "slug": "cocuk-kiz-cocuk-spor-ayakkabi"
+                        },
+                        {
+                            "title": "Eşofman",
+                            "slug": "cocuk-kiz-cocuk-esofman"
+                        },
+                        {
+                            "title": "İç Giyim & Pijama",
+                            "slug": "cocuk-kiz-cocuk-ic-giyim-pijama"
+                        },
+                        {
+                            "title": "T-shirt & Atlet",
+                            "slug": "cocuk-kiz-cocuk-t-shirt-atlet"
+                        },
+                        {
+                            "title": "Tayt",
+                            "slug": "cocuk-kiz-cocuk-tayt"
+                        },
+                        {
+                            "title": "Günlük Ayakkabı",
+                            "slug": "cocuk-kiz-cocuk-guenluek-ayakkabi"
+                        },
+                        {
+                            "title": "Şort",
+                            "slug": "cocuk-kiz-cocuk-sort"
+                        }
+                    ]
+                },
+                {
+                    "title": "Erkek Çocuk",
+                    "slug": "cocuk-erkek-cocuk",
+                    "children": [{
+                            "title": "Sweatshirt",
+                            "slug": "cocuk-erkek-cocuk-sweatshirt"
+                        },
+                        {
+                            "title": "Spor Ayakkabı",
+                            "slug": "cocuk-erkek-cocuk-spor-ayakkabi"
+                        },
+                        {
+                            "title": "Eşofman",
+                            "slug": "cocuk-erkek-cocuk-esofman"
+                        },
+                        {
+                            "title": "İç Giyim & Pijama",
+                            "slug": "cocuk-erkek-cocuk-ic-giyim-pijama"
+                        },
+                        {
+                            "title": "T-shirt & Atlet",
+                            "slug": "cocuk-erkek-cocuk-t-shirt-atlet"
+                        },
+                        {
+                            "title": "Günlük Ayakkabı",
+                            "slug": "cocuk-erkek-cocuk-guenluek-ayakkabi"
+                        },
+                        {
+                            "title": "Okul Çantası",
+                            "slug": "cocuk-erkek-cocuk-okul-cantasi"
+                        },
+                        {
+                            "title": "Şort",
+                            "slug": "cocuk-erkek-cocuk-sort"
+                        },
+                        {
+                            "title": "Gömlek",
+                            "slug": "cocuk-erkek-cocuk-goemlek"
+                        }
+                    ]
+                },
+                {
+                    "title": "Bebek Bakım",
+                    "slug": "cocuk-bebek-bakim",
+                    "children": [{
+                            "title": "Banyo & Tuvalet",
+                            "slug": "cocuk-bebek-bakim-banyo-tuvalet"
+                        },
+                        {
+                            "title": "Bebek Şampuanı",
+                            "slug": "cocuk-bebek-bakim-bebek-sampuani"
+                        },
+                        {
+                            "title": "Krem & Yağlar",
+                            "slug": "cocuk-bebek-bakim-krem-yaglar"
+                        },
+                        {
+                            "title": "Bebek Çantası",
+                            "slug": "cocuk-bebek-bakim-bebek-cantasi"
+                        }
+                    ]
+                },
+                {
+                    "title": "Taşıma & Güvenlik",
+                    "slug": "cocuk-tasima-guevenlik",
+                    "children": [{
+                            "title": "Bebek Arabası & Puset",
+                            "slug": "cocuk-tasima-guevenlik-bebek-arabasi-puset"
+                        },
+                        {
+                            "title": "Park Yatak",
+                            "slug": "cocuk-tasima-guevenlik-park-yatak"
+                        },
+                        {
+                            "title": "Ana Kucağı",
+                            "slug": "cocuk-tasima-guevenlik-ana-kucagi"
+                        },
+                        {
+                            "title": "Portbebe & Kanguru",
+                            "slug": "cocuk-tasima-guevenlik-portbebe-kanguru"
+                        },
+                        {
+                            "title": "Yürüteç",
+                            "slug": "cocuk-tasima-guevenlik-yueruetec"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "EV & YAŞAM",
+            "slug": "ev-yasam",
+            "children": [{
+                    "title": "Sofra & Mutfak",
+                    "slug": "ev-yasam-sofra-mutfak",
+                    "children": [{
+                            "title": "Yemek Takımı",
+                            "slug": "ev-yasam-sofra-mutfak-yemek-takimi"
+                        },
+                        {
+                            "title": "Kahvaltı Takımı",
+                            "slug": "ev-yasam-sofra-mutfak-kahvalti-takimi"
+                        },
+                        {
+                            "title": "Baharat Takımı",
+                            "slug": "ev-yasam-sofra-mutfak-baharat-takimi"
+                        },
+                        {
+                            "title": "Fincan & Kupa",
+                            "slug": "ev-yasam-sofra-mutfak-fincan-kupa"
+                        },
+                        {
+                            "title": "Fırın & Kek Kalıbı",
+                            "slug": "ev-yasam-sofra-mutfak-firin-kek-kalibi"
+                        },
+                        {
+                            "title": "Çaydanlık",
+                            "slug": "ev-yasam-sofra-mutfak-caydanlik"
+                        },
+                        {
+                            "title": "Tencere Seti",
+                            "slug": "ev-yasam-sofra-mutfak-tencere-seti"
+                        },
+                        {
+                            "title": "Düdüklü Tencere",
+                            "slug": "ev-yasam-sofra-mutfak-duedueklue-tencere"
+                        }
+                    ]
+                },
+                {
+                    "title": "Ev Tekstili",
+                    "slug": "ev-yasam-ev-tekstili",
+                    "children": [{
+                            "title": "Yatak Odası",
+                            "slug": "ev-yasam-ev-tekstili-yatak-odasi"
+                        },
+                        {
+                            "title": "Mutfak",
+                            "slug": "ev-yasam-ev-tekstili-mutfak"
+                        },
+                        {
+                            "title": "Banyo",
+                            "slug": "ev-yasam-ev-tekstili-banyo"
+                        },
+                        {
+                            "title": "Perde",
+                            "slug": "ev-yasam-ev-tekstili-perde"
+                        },
+                        {
+                            "title": "Halı & Kilim & Paspas",
+                            "slug": "ev-yasam-ev-tekstili-hali-kilim-paspas"
+                        },
+                        {
+                            "title": "Yatak Örtüsü",
+                            "slug": "ev-yasam-ev-tekstili-yatak-oertuesue"
+                        },
+                        {
+                            "title": "Nevresim Takımı",
+                            "slug": "ev-yasam-ev-tekstili-nevresim-takimi"
+                        }
+                    ]
+                },
+                {
+                    "title": "Ev Dekorasyon",
+                    "slug": "ev-yasam-ev-dekorasyon",
+                    "children": [{
+                            "title": "Aydınlatma",
+                            "slug": "ev-yasam-ev-dekorasyon-aydinlatma"
+                        },
+                        {
+                            "title": "Dekoratif Aksesuar",
+                            "slug": "ev-yasam-ev-dekorasyon-dekoratif-aksesuar"
+                        },
+                        {
+                            "title": "Tablo",
+                            "slug": "ev-yasam-ev-dekorasyon-tablo"
+                        },
+                        {
+                            "title": "Duvar Kağıdı",
+                            "slug": "ev-yasam-ev-dekorasyon-duvar-kagidi"
+                        },
+                        {
+                            "title": "Ayna",
+                            "slug": "ev-yasam-ev-dekorasyon-ayna"
+                        }
+                    ]
+                },
+                {
+                    "title": "Hobi",
+                    "slug": "ev-yasam-hobi",
+                    "children": [{
+                            "title": "Kitap",
+                            "slug": "ev-yasam-hobi-kitap"
+                        },
+                        {
+                            "title": "Puzzle",
+                            "slug": "ev-yasam-hobi-puzzle"
+                        },
+                        {
+                            "title": "Boya & Resim",
+                            "slug": "ev-yasam-hobi-boya-resim"
+                        }
+                    ]
+                },
+                {
+                    "title": "Otomobil & Motosiklet",
+                    "slug": "ev-yasam-otomobil-motosiklet",
+                    "children": [{
+                            "title": "Oto Aksesuar",
+                            "slug": "ev-yasam-otomobil-motosiklet-oto-aksesuar"
+                        },
+                        {
+                            "title": "Oto Paspası",
+                            "slug": "ev-yasam-otomobil-motosiklet-oto-paspasi"
+                        },
+                        {
+                            "title": "Oto Lastik",
+                            "slug": "ev-yasam-otomobil-motosiklet-oto-lastik"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "SÜPERMARKET",
+            "slug": "suepermarket",
+            "children": [{
+                    "title": "Ev Bakım & Temizlik",
+                    "slug": "suepermarket-ev-bakim-temizlik",
+                    "children": [{
+                            "title": "Çamaşır Yıkama",
+                            "slug": "suepermarket-ev-bakim-temizlik-camasir-yikama"
+                        },
+                        {
+                            "title": "Bulaşık Yıkama",
+                            "slug": "suepermarket-ev-bakim-temizlik-bulasik-yikama"
+                        },
+                        {
+                            "title": "Ev Temizlik",
+                            "slug": "suepermarket-ev-bakim-temizlik-ev-temizlik"
+                        },
+                        {
+                            "title": "Paspas & Mop",
+                            "slug": "suepermarket-ev-bakim-temizlik-paspas-mop"
+                        }
+                    ]
+                },
+                {
+                    "title": "Kişisel Bakım",
+                    "slug": "suepermarket-kisisel-bakim",
+                    "children": [{
+                            "title": "Saç Bakımı",
+                            "slug": "suepermarket-kisisel-bakim-sac-bakimi"
+                        },
+                        {
+                            "title": "Ağda & Epilasyon",
+                            "slug": "suepermarket-kisisel-bakim-agda-epilasyon"
+                        },
+                        {
+                            "title": "Banyo & Duş",
+                            "slug": "suepermarket-kisisel-bakim-banyo-dus"
+                        },
+                        {
+                            "title": "Ağız Bakım",
+                            "slug": "suepermarket-kisisel-bakim-agiz-bakim"
+                        },
+                        {
+                            "title": "Cilt Bakımı",
+                            "slug": "suepermarket-kisisel-bakim-cilt-bakimi"
+                        }
+                    ]
+                },
+                {
+                    "title": "Petshop",
+                    "slug": "suepermarket-petshop",
+                    "children": [{
+                            "title": "Kedi Maması",
+                            "slug": "suepermarket-petshop-kedi-mamasi"
+                        },
+                        {
+                            "title": "Kedi Kumu",
+                            "slug": "suepermarket-petshop-kedi-kumu"
+                        },
+                        {
+                            "title": "Köpek Maması",
+                            "slug": "suepermarket-petshop-koepek-mamasi"
+                        },
+                        {
+                            "title": "Köpek Tasması",
+                            "slug": "suepermarket-petshop-koepek-tasmasi"
+                        },
+                        {
+                            "title": "Akvaryum Ürünleri",
+                            "slug": "suepermarket-petshop-akvaryum-ueruenleri"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "KOZMETİK",
+            "slug": "kozmetik",
+            "children": [{
+                    "title": "Makyaj",
+                    "slug": "kozmetik-makyaj",
+                    "children": [{
+                            "title": "Göz Makyajı",
+                            "slug": "kozmetik-makyaj-goez-makyaji"
+                        },
+                        {
+                            "title": "Ten Makyajı",
+                            "slug": "kozmetik-makyaj-ten-makyaji"
+                        },
+                        {
+                            "title": "Dudak Makyajı",
+                            "slug": "kozmetik-makyaj-dudak-makyaji"
+                        },
+                        {
+                            "title": "Makyaj Seti",
+                            "slug": "kozmetik-makyaj-makyaj-seti"
+                        },
+                        {
+                            "title": "Oje & Aseton",
+                            "slug": "kozmetik-makyaj-oje-aseton"
+                        },
+                        {
+                            "title": "Fondöten",
+                            "slug": "kozmetik-makyaj-fondoeten"
+                        }
+                    ]
+                },
+                {
+                    "title": "Cilt Bakımı",
+                    "slug": "kozmetik-cilt-bakimi",
+                    "children": [{
+                            "title": "Nemlendirme",
+                            "slug": "kozmetik-cilt-bakimi-nemlendirme"
+                        },
+                        {
+                            "title": "Yüz Temizleme",
+                            "slug": "kozmetik-cilt-bakimi-yuez-temizleme"
+                        },
+                        {
+                            "title": "Maske & Peeling",
+                            "slug": "kozmetik-cilt-bakimi-maske-peeling"
+                        },
+                        {
+                            "title": "Göz Bakımı",
+                            "slug": "kozmetik-cilt-bakimi-goez-bakimi"
+                        },
+                        {
+                            "title": "Güneş Ürünleri",
+                            "slug": "kozmetik-cilt-bakimi-guenes-ueruenleri"
+                        },
+                        {
+                            "title": "Cilt Serumu",
+                            "slug": "kozmetik-cilt-bakimi-cilt-serumu"
+                        },
+                        {
+                            "title": "Yaşlanma Karşıtı",
+                            "slug": "kozmetik-cilt-bakimi-yaslanma-karsiti"
+                        }
+                    ]
+                },
+                {
+                    "title": "Epilasyon & Tıraş Ürünleri",
+                    "slug": "kozmetik-epilasyon-tiras-ueruenleri",
+                    "children": [{
+                            "title": "Ağda & Tüy Dökücü",
+                            "slug": "kozmetik-epilasyon-tiras-ueruenleri-agda-tuey-doekuecue"
+                        },
+                        {
+                            "title": "Tıraş Bıçağı",
+                            "slug": "kozmetik-epilasyon-tiras-ueruenleri-tiras-bicagi"
+                        },
+                        {
+                            "title": "Epilatör",
+                            "slug": "kozmetik-epilasyon-tiras-ueruenleri-epilatoer"
+                        },
+                        {
+                            "title": "Tıraş Köpüğü",
+                            "slug": "kozmetik-epilasyon-tiras-ueruenleri-tiras-koepuegue"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AYAKKABI & ÇANTA",
+            "slug": "ayakkabi-canta",
+            "children": [{
+                    "title": "Kadın Ayakkabı",
+                    "slug": "ayakkabi-canta-kadin-ayakkabi",
+                    "children": [{
+                            "title": "Spor Ayakkabı",
+                            "slug": "ayakkabi-canta-kadin-ayakkabi-spor-ayakkabi"
+                        },
+                        {
+                            "title": "Topuklu Ayakkabı",
+                            "slug": "ayakkabi-canta-kadin-ayakkabi-topuklu-ayakkabi"
+                        },
+                        {
+                            "title": "Günlük Ayakkabı",
+                            "slug": "ayakkabi-canta-kadin-ayakkabi-guenluek-ayakkabi"
+                        },
+                        {
+                            "title": "Bot & Bootie",
+                            "slug": "ayakkabi-canta-kadin-ayakkabi-bot-bootie"
+                        },
+                        {
+                            "title": "Terlik",
+                            "slug": "ayakkabi-canta-kadin-ayakkabi-terlik"
+                        }
+                    ]
+                },
+                {
+                    "title": "Erkek Ayakkabı",
+                    "slug": "ayakkabi-canta-erkek-ayakkabi",
+                    "children": [{
+                            "title": "Spor Ayakkabı",
+                            "slug": "ayakkabi-canta-erkek-ayakkabi-spor-ayakkabi"
+                        },
+                        {
+                            "title": "Günlük Ayakkabı",
+                            "slug": "ayakkabi-canta-erkek-ayakkabi-guenluek-ayakkabi"
+                        },
+                        {
+                            "title": "Klasik Ayakkabı",
+                            "slug": "ayakkabi-canta-erkek-ayakkabi-klasik-ayakkabi"
+                        },
+                        {
+                            "title": "Bot",
+                            "slug": "ayakkabi-canta-erkek-ayakkabi-bot"
+                        },
+                        {
+                            "title": "Sneaker",
+                            "slug": "ayakkabi-canta-erkek-ayakkabi-sneaker"
+                        },
+                        {
+                            "title": "Koşu Ayakkabısı",
+                            "slug": "ayakkabi-canta-erkek-ayakkabi-kosu-ayakkabisi"
+                        }
+                    ]
+                },
+                {
+                    "title": "Çocuk Ayakkabı",
+                    "slug": "ayakkabi-canta-cocuk-ayakkabi",
+                    "children": [{
+                            "title": "Spor Ayakkabı",
+                            "slug": "ayakkabi-canta-cocuk-ayakkabi-spor-ayakkabi"
+                        },
+                        {
+                            "title": "Günlük Ayakkabı",
+                            "slug": "ayakkabi-canta-cocuk-ayakkabi-guenluek-ayakkabi"
+                        },
+                        {
+                            "title": "Babet",
+                            "slug": "ayakkabi-canta-cocuk-ayakkabi-babet"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "SAAT & AKSESUAR",
+            "slug": "saat-aksesuar",
+            "children": [{
+                    "title": "Kadın",
+                    "slug": "saat-aksesuar-kadin",
+                    "children": [{
+                            "title": "Saat",
+                            "slug": "saat-aksesuar-kadin-saat"
+                        },
+                        {
+                            "title": "Güneş Gözlüğü",
+                            "slug": "saat-aksesuar-kadin-guenes-goezluegue"
+                        },
+                        {
+                            "title": "Takı",
+                            "slug": "saat-aksesuar-kadin-taki"
+                        },
+                        {
+                            "title": "Cüzdan",
+                            "slug": "saat-aksesuar-kadin-cuezdan"
+                        },
+                        {
+                            "title": "Kemer",
+                            "slug": "saat-aksesuar-kadin-kemer"
+                        },
+                        {
+                            "title": "Şapka",
+                            "slug": "saat-aksesuar-kadin-sapka"
+                        },
+                        {
+                            "title": "Şal & Fular",
+                            "slug": "saat-aksesuar-kadin-sal-fular"
+                        },
+                        {
+                            "title": "Saç Aksesuarı",
+                            "slug": "saat-aksesuar-kadin-sac-aksesuari"
+                        }
+                    ]
+                },
+                {
+                    "title": "Takı & Mücevher",
+                    "slug": "saat-aksesuar-taki-muecevher",
+                    "children": [{
+                            "title": "Kolye",
+                            "slug": "saat-aksesuar-taki-muecevher-kolye"
+                        },
+                        {
+                            "title": "Küpe",
+                            "slug": "saat-aksesuar-taki-muecevher-kuepe"
+                        },
+                        {
+                            "title": "Bileklik",
+                            "slug": "saat-aksesuar-taki-muecevher-bileklik"
+                        },
+                        {
+                            "title": "Halhal",
+                            "slug": "saat-aksesuar-taki-muecevher-halhal"
+                        },
+                        {
+                            "title": "Yüzük",
+                            "slug": "saat-aksesuar-taki-muecevher-yuezuek"
+                        },
+                        {
+                            "title": "Altın",
+                            "slug": "saat-aksesuar-taki-muecevher-altin"
+                        }
+                    ]
+                },
+                {
+                    "title": "Erkek",
+                    "slug": "saat-aksesuar-erkek",
+                    "children": [{
+                            "title": "Saat",
+                            "slug": "saat-aksesuar-erkek-saat"
+                        },
+                        {
+                            "title": "Güneş Gözlüğü",
+                            "slug": "saat-aksesuar-erkek-guenes-goezluegue"
+                        },
+                        {
+                            "title": "Cüzdan & Kartlık",
+                            "slug": "saat-aksesuar-erkek-cuezdan-kartlik"
+                        },
+                        {
+                            "title": "Kemer",
+                            "slug": "saat-aksesuar-erkek-kemer"
+                        },
+                        {
+                            "title": "Bileklik",
+                            "slug": "saat-aksesuar-erkek-bileklik"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "ELEKTRONİK",
+            "slug": "elektronik",
+            "children": [{
+                    "title": "Küçük Ev Aletleri",
+                    "slug": "elektronik-kuecuek-ev-aletleri",
+                    "children": [{
+                            "title": "Süpürge",
+                            "slug": "elektronik-kuecuek-ev-aletleri-suepuerge"
+                        },
+                        {
+                            "title": "Kahve Makinesi",
+                            "slug": "elektronik-kuecuek-ev-aletleri-kahve-makinesi"
+                        },
+                        {
+                            "title": "Çay Makinesi",
+                            "slug": "elektronik-kuecuek-ev-aletleri-cay-makinesi"
+                        },
+                        {
+                            "title": "Blender",
+                            "slug": "elektronik-kuecuek-ev-aletleri-blender"
+                        },
+                        {
+                            "title": "Tost Makinesi",
+                            "slug": "elektronik-kuecuek-ev-aletleri-tost-makinesi"
+                        },
+                        {
+                            "title": "Waffle Makinesi",
+                            "slug": "elektronik-kuecuek-ev-aletleri-waffle-makinesi"
+                        },
+                        {
+                            "title": "Ütü",
+                            "slug": "elektronik-kuecuek-ev-aletleri-uetue"
+                        },
+                        {
+                            "title": "Su Isıtıcısı & Kettle",
+                            "slug": "elektronik-kuecuek-ev-aletleri-su-isiticisi-kettle"
+                        }
+                    ]
+                },
+                {
+                    "title": "Telefon",
+                    "slug": "elektronik-telefon",
+                    "children": [{
+                            "title": "Cep Telefonu",
+                            "slug": "elektronik-telefon-cep-telefonu"
+                        },
+                        {
+                            "title": "Kapak & Kılıf",
+                            "slug": "elektronik-telefon-kapak-kilif"
+                        },
+                        {
+                            "title": "Şarj Cihazları",
+                            "slug": "elektronik-telefon-sarj-cihazlari"
+                        },
+                        {
+                            "title": "Powerbank",
+                            "slug": "elektronik-telefon-powerbank"
+                        }
+                    ]
+                },
+                {
+                    "title": "TV & Görüntü & Ses",
+                    "slug": "elektronik-tv-goeruentue-ses",
+                    "children": [{
+                            "title": "Televizyon",
+                            "slug": "elektronik-tv-goeruentue-ses-televizyon"
+                        },
+                        {
+                            "title": "Kulaklık",
+                            "slug": "elektronik-tv-goeruentue-ses-kulaklik"
+                        },
+                        {
+                            "title": "Hoparlör",
+                            "slug": "elektronik-tv-goeruentue-ses-hoparloer"
+                        },
+                        {
+                            "title": "Kablo & Sarf Malzemeleri",
+                            "slug": "elektronik-tv-goeruentue-ses-kablo-sarf-malzemeleri"
+                        }
+                    ]
+                },
+                {
+                    "title": "Beyaz Eşya",
+                    "slug": "elektronik-beyaz-esya",
+                    "children": [{
+                            "title": "Buzdolabı",
+                            "slug": "elektronik-beyaz-esya-buzdolabi"
+                        },
+                        {
+                            "title": "Çamaşır Makinesi",
+                            "slug": "elektronik-beyaz-esya-camasir-makinesi"
+                        },
+                        {
+                            "title": "Bulaşık Makinesi",
+                            "slug": "elektronik-beyaz-esya-bulasik-makinesi"
+                        },
+                        {
+                            "title": "Ankastre",
+                            "slug": "elektronik-beyaz-esya-ankastre"
+                        },
+                        {
+                            "title": "Klima",
+                            "slug": "elektronik-beyaz-esya-klima"
+                        }
+                    ]
+                },
+                {
+                    "title": "Veri Depolama",
+                    "slug": "elektronik-veri-depolama",
+                    "children": [{
+                            "title": "Harici Disk",
+                            "slug": "elektronik-veri-depolama-harici-disk"
+                        },
+                        {
+                            "title": "USB Bellek",
+                            "slug": "elektronik-veri-depolama-usb-bellek"
+                        },
+                        {
+                            "title": "SSD Bellek",
+                            "slug": "elektronik-veri-depolama-ssd-bellek"
+                        },
+                        {
+                            "title": "Hafıza Kartı",
+                            "slug": "elektronik-veri-depolama-hafiza-karti"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

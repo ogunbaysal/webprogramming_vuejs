@@ -10,14 +10,14 @@
                     <span class="suggestion-title main">Geçmiş Aramalar</span>
                     <span class="clear" @click="clearSearchHistory">Temizle</span>
                 </div>
-                <Suggestion v-for="item in history" :key="item.title" :item="item"/>
+                <Suggestion v-for="item in history" :key="item.slug" :item="item"/>
             </div>
             <div class="suggestion-result" v-if="display_history === false">
                 <div class="suggestion-result-title">
                     <span class="suggestion-title main">Arama Sonuçları</span>
                     <span class="clear"></span>
                 </div>
-                <Suggestion v-for="item in results" :key="item.title" :item="item"/>
+                <Suggestion v-for="item in results" :key="item.slug" :item="item"/>
             </div>
         </div>
     </div>

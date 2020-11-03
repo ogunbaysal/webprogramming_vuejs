@@ -13,20 +13,18 @@
 </template>
 
 <script>
-import CategoryRepository from "@/repositories/CategoryRepository";
 import NavbarItem from "@/app/components/Navbar/NavbarItem";
 
 export default {
     name: "Navbar",
     components: {NavbarItem},
-    created() {
-        this.parent_categories = CategoryRepository.getAll();
-        console.log(this.parent_categories);
+    computed: {
+        parent_categories(){
+            return this.$store.getters["category/getCategories"];
+        }
     },
-    data: function () {
-        return {
-            parent_categories: [],
-        };
+    created() {
+        this.$store.dispatch('category/initializeCategories');
     }
 }
 </script>
