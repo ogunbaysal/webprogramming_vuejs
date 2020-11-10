@@ -17,7 +17,8 @@
                     <span class="suggestion-title main">Arama Sonuçları</span>
                     <span class="clear"></span>
                 </div>
-                <Suggestion v-for="item in results" :key="item.slug" :item="item"/>
+                <Suggestion v-for="item in results.categories" :key="item.slug" :item="item" :is_category="true"/>
+                <Suggestion v-for="item in results.products" :key="item.slug" :item="item" :is_category="false"/>
             </div>
         </div>
     </div>

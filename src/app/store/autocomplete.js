@@ -87,10 +87,10 @@ const autocomplete = {
             return state.history;
         },
         getResults(state){
-            return [
-                ...state.category_results,
-                ...state.product_results
-            ]
+            return {
+                categories: state.category_results,
+                products: state.product_results
+            };
         }
     }
 }

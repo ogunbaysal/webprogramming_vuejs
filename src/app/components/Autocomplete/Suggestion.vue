@@ -18,11 +18,11 @@ export default {
         },
         display_link(){
             if(this.item === undefined) return this.link;
-            return '/urun/' + this.item.id;
-        },
-        is_category(){
-          if(this.item === undefined) return false;
-            return this.item.constructor.name === 'Category';
+            if(this.is_category) {
+                return '/urunler/' + this.item.slug;
+            }else{
+                return '/urun/' + this.item.id;
+            }
         }
     },
     props: {
@@ -34,6 +34,10 @@ export default {
         },
         link: {
             type: String,
+        },
+        is_category: {
+            type: Boolean,
+            default: false
         }
     },
     methods: {
