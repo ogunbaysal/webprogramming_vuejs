@@ -5,9 +5,9 @@
             <div class="sticky-header">
                 <div class="header">
                     <div class="col-lg-3 col-md-3 col-xs-3 no-padding">
-                        <a href="#" class="sticky__content__logo" title="Trendyol">
+                        <router-link to="/" class="sticky__content__logo">
                             <img :src="logo" alt="Trendyol">
-                        </a>
+                        </router-link>
                     </div>
                     <div class="searchbar col-lg-6 col-md-6 col-xs-6 no-padding">
                         <div class="searchbar__app">

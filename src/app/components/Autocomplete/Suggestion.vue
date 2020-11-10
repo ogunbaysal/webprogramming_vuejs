@@ -1,8 +1,8 @@
 <template>
-    <a :href="display_link" @click="onClick" class="suggestion">
+    <router-link :to="display_link" @click="onClick" class="suggestion">
         <span v-html="display_text"></span>
         <span class="label" v-if="is_category">Kategori</span>
-    </a>
+    </router-link>
 </template>
 
 <script>

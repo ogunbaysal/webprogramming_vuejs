@@ -1,6 +1,8 @@
 <template>
     <li class="tab-link" @mouseover="hover = true" @mouseleave="hover = false">
-        <a :href="parent.slug" class="category-header">{{ parent.title }}</a>
+        <router-link :to="getLink(parent.slug)" class="category-header">
+            {{ parent.title }}
+        </router-link>
         <div class="sub-nav" :class="hover ? 'animation enable' : ''" :id="'sub-nav-'+ parent.title">
             <div class="sub-nav-center">
                 <div class="sub-nav-outer">
@@ -8,7 +10,7 @@
                         <div class="category-box"><a :href="item.slug" class="sub-category-header">{{ item.title }}</a>
                             <ul class="sub-item-list">
                                 <li v-for="child in item.children" :key="child.title">
-                                    <a :href="getLink(child.slug)">{{ child.title }}</a>
+                                    <router-link :to="getLink(child.slug)">{{ child.title }}</router-link>
                                 </li>
                             </ul>
                         </div>

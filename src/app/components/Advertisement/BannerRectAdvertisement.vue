@@ -1,9 +1,6 @@
 <template>
     <article class="component-item">
-        <a
-            class="campaign campaign-big"
-            data-type="banner"
-            :href="link">
+        <router-link :to="link" class="campaign campaign-big">
             <span class="image-container">
                 <img :alt="title" :src="image"/>
             </span>
@@ -14,7 +11,7 @@
                     <i class="icon icon-arrow-banner-white"></i>
                 </div>
             </summary>
-        </a>
+        </router-link>
     </article>
 </template>
 

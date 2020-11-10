@@ -1,7 +1,7 @@
 <template>
     <div @mouseover="hover = true" @mouseleave="hover = false">
         <div class="icon-container">
-            <a href="/sepetim"> <i class="icon navigation-icon-basket"></i> </a>
+            <router-link to="/sepetim"> <i class="icon navigation-icon-basket"></i> </router-link>
         </div>
         <div class="nav-span">Sepetim</div>
         <div class="basket-item-count" v-show="basket.length > 0">
@@ -17,7 +17,7 @@
                     </div>
                     <ul class="basketProductList" :data-product-count="basket.length">
                         <li v-for="basketItem in basket" :key="basketItem.id">
-                            <a :href="productUrl(basketItem.item.id)">
+                            <router-link :to="productUrl(basketItem.item.id)">
                                 <div class="imageBox">
                                     <img :src="basketItem.item.images[0]" :alt="basketItem.item.title">
                                 </div>
@@ -25,14 +25,14 @@
                                     <p>
                                         <span class="brandName">{{ basketItem.item.brand }}</span>
                                         <span class="productName">{{ basketItem.item.title }}</span>
-<!--                                        <span><label class="productSize">Beden:</label> </span>-->
+                                        <!--                                        <span><label class="productSize">Beden:</label> </span>-->
                                         <span><label class="productQuantity">Adet:</label> {{ basketItem.amount }}</span>
                                     </p>
                                     <p>
                                         <span class="salePrice">{{ (basketItem.item.price * basketItem.amount).toFixed(2)  }} TL</span>
                                     </p>
                                 </div>
-                            </a>
+                            </router-link>
                             <span class="separator"></span>
                         </li>
                     </ul>
@@ -42,8 +42,9 @@
                     </div>
                 </div>
                 <div class="productPriceBox">
-                    <a href="/sepetim" class="goBasket" >Sepete Git</a>
-
+                    <router-link to="/sepetim">
+                        Sepete Git
+                    </router-link>
                     <a href="javascript:void(0)" class="CompleteOrder">Siparişi Tamamla</a>
 
                 </div>

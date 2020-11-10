@@ -44,13 +44,13 @@
             <div class="pb-img-container">
                 <img :src="item.images[0]" :alt="item.title">
             </div>
-            <a href="/soho/siyah-kadin-bot-13786-p-31450976?boutiqueId=537560&amp;merchantId=968" class="pb-basket-item-details">
+            <router-link :to="getProductLink(item.id)" class="pb-basket-item-details">
                 <p class="pb-item" title="SOHO Siyah Kadın Bot 13786">
                     <span>{{ item.brand }}</span>{{ item.title }} {{ item.id }}
                 </p>
                 <p v-if="basketItem.options.body !== undefined">Beden: {{ basketItem.options.body }}</p>
-<!--                <p>Tahmini Teslimat Tarihi: <span>2 - 6 Kasım</span>(Kargo Bedava)</p>-->
-            </a>
+                <!--                <p>Tahmini Teslimat Tarihi: <span>2 - 6 Kasım</span>(Kargo Bedava)</p>-->
+            </router-link>
             <div class="pb-basket-item-actions">
                 <div class="pb-counter-container">
                     <div class="ty-display-flex ty-numeric-counter">
@@ -110,6 +110,9 @@ export default {
             this.$store.dispatch("basket/updateItemAmount", {
                 basket_id, amount
             });
+        },
+        getProductLink(id) {
+            return '/urun/' + id;
         }
     },
     created() {
