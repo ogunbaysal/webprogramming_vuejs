@@ -18,7 +18,7 @@ export default {
         },
         display_link(){
             if(this.item === undefined) return this.link;
-            return this.item.link;
+            return '/urun/' + this.item.id;
         },
         is_category(){
           if(this.item === undefined) return false;

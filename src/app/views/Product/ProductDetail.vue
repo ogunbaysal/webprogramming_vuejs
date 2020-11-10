@@ -29,17 +29,26 @@ export default {
     components: {ProductProperties, ProductComments, ProductDescription, ProductBody, ProductHead, Gallery},
     created() {
         const product_id = this.$route.params.product_id;
-        if(product_id !== undefined && product_id !== null && product_id !== '') {
-            this.$store.dispatch('product/getProductDetail', product_id);
-        }else{
-            // this.$router.push('/404');
-            // return false;
+        this.initializeData(product_id);
+    },
+    watch:{
+        $route (to){
+            this.initializeData(to.params.product_id);
         }
-
     },
     computed: {
         product() {
             return this.$store.getters["product/getProduct"];
+        }
+    },
+    methods: {
+        initializeData(product_id) {
+            if(product_id !== undefined && product_id !== null && product_id !== '') {
+                this.$store.dispatch('product/getProductDetail', product_id);
+            }else{
+                // this.$router.push('/404');
+                // return false;
+            }
         }
     }
 }

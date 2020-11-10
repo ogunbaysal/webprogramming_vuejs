@@ -4,7 +4,7 @@
             <div class="rnr-com-cn">
                 <div class="rnr-com-tx">
                     <span class="rnr-inline-rating">
-                        <Rating :rate=parseFloat(comment.rate) />
+                        <Rating :rate=parseInt(comment.rate) />
                     </span>
                     {{ comment.comment }}
                 </div>

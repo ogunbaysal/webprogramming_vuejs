@@ -6,14 +6,14 @@
                     <button @click="prev()" type="button" data-role="none" class="slick-arrow slick-prev slick-disabled" style="display:block"> Previous</button>
                     <div class="slick-list" style="height: 620px;">
                         <div class="slick-track" style="opacity: 1; transform: translate3d(0px, 0px, 0px); height: 2356px;">
-                            <div v-for="(item, index) in images" :key="index" :aria-hidden="current === index ? 'false' : 'true'" :data-index="index" :class="current === index ? 'slick-active slick-current' : ''" class="slick-slide" tabindex="-1" style="outline: none; width: 80px;">
+                            <div v-for="(item, index) in images" :key="'a-' + index" :aria-hidden="current === index ? 'false' : 'true'" :data-index="index" :class="current === index ? 'slick-active slick-current' : ''" class="slick-slide" tabindex="-1" style="outline: none; width: 80px;">
                                 <div>
                                     <div class="selected pd-img">
                                         <img alt="Image" :src="item" style="width: 78px; height: 114px; min-width: 78px; min-height: 114px;">
                                     </div>
                                 </div>
                             </div>
-                            <div v-for="(item, i) in images" :key="i" :data-index="images.length + i" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 80px;"></div>
+                            <div v-for="(item, i) in images" :key="'b-' + i" :data-index="images.length + i" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 80px;"></div>
                         </div>
                     </div>
                     <button @click="next()" type="button" data-role="none" class="slick-arrow slick-next" style="display:block"> Next</button>
@@ -27,7 +27,7 @@
                              style="width: 7904px; opacity: 1; transform: translate3d(-416px, 0px, 0px);">
                             <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned"
                                  aria-hidden="true" style="width: 416px;"></div>
-                            <div v-for="(item, i) in images" :key="i" :data-index="i" :class="current === i ? 'slick-active slick-current' : ''" class="slick-slide" tabindex="-1" aria-hidden="false" style="outline: none; width: 416px;">
+                            <div v-for="(item, i) in images" :key="'c' + i" :data-index="i" :class="current === i ? 'slick-active slick-current' : ''" class="slick-slide" tabindex="-1" aria-hidden="false" style="outline: none; width: 416px;">
                                 <div>
                                     <div style="cursor: crosshair; width: 415px; display: inline-block; height: 622px; position: relative; user-select: none;">
                                         <img

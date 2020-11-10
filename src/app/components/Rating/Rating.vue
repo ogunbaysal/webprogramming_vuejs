@@ -1,7 +1,7 @@
 <template>
     <div class="ratings">
-        <Star v-for="(i, index) in rate" :key="index" :empty="false" />
-        <Star v-for="(i, index) in (5-rate)" :key="i*index" :empty="true"/>
+        <Star v-for="(i, index) in rate" :key="'star-' + index" :empty="false" />
+        <Star v-for="(i, index) in (5-rate)" :key="'star-empty-' + i*index" :empty="true"/>
         <span v-show="ratingCount !== undefined" class="ratingCount">({{ratingCount}})</span>
     </div>
 </template>

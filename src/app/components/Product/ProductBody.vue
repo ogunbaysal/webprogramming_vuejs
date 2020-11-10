@@ -55,7 +55,7 @@
             <div class="pr-in-at-tl-w"><span class="pr-in-at-tl">Beden<!-- -->: <span
                 class="tl-vr-vl">{{ this.selectedBody }}</span></span><span class="pr-in-at-vr-tb">Beden Tablosu</span></div>
             <div class="pr-in-at-sp">
-                <div class="sp-itm" :class="selectedBody === item.type ? 'selected' : ''" v-for="item in product.body" :key="item.type" @click="selectedBody = item.type">
+                <div class="sp-itm" :class="selectedBody === item.type ? 'selected' : ''" v-for="item in product.body" :key="'a' + item.type" @click="selectedBody = item.type">
                     {{ item.type }}
                 </div>
             </div>
