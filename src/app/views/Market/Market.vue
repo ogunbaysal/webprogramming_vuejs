@@ -1924,14 +1924,24 @@ export default {
     components: {OptionFilter, ProductItem},
     created(){
         const category = this.$route.params.category_slug;
-        if(category !== undefined && category !== null && category !== '') {
-            this.$store.dispatch('product/setFilter', { key: 'category', value: category })
-        }
-        this.$store.dispatch('product/retrieveProducts');
+        this.initializeData(category);
     },
     computed: {
         filteredProducts(){
             return this.$store.getters["product/getFilteredProducts"];
+        }
+    },
+    methods: {
+        initializeData(category){
+            if(category !== undefined && category !== null && category !== '') {
+                this.$store.dispatch('product/setFilter', { key: 'category', value: category })
+            }
+            this.$store.dispatch('product/retrieveProducts');
+        }
+    },
+    watch:{
+        $route (to){
+            this.initializeData(to.params.category_slug);
         }
     }
 }
