@@ -48,7 +48,7 @@
                 <p class="pb-item" title="SOHO Siyah Kadın Bot 13786">
                     <span>{{ item.brand }}</span>{{ item.title }} {{ item.id }}
                 </p>
-                <p>Beden: {{ basketItem.body }}</p>
+                <p v-if="basketItem.options.body !== undefined">Beden: {{ basketItem.options.body }}</p>
 <!--                <p>Tahmini Teslimat Tarihi: <span>2 - 6 Kasım</span>(Kargo Bedava)</p>-->
             </a>
             <div class="pb-basket-item-actions">
@@ -111,8 +111,8 @@ export default {
                 basket_id, amount
             });
         }
-    },created() {
-        console.log(this.discount)
+    },
+    created() {
     }
 }
 </script>

@@ -435,54 +435,6 @@ input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-se
     line-height: unset
 }
 
-@font-face {
-    font-family: source_sans_proregular;
-    src: url(http://trendyol.com/frontend/web/assets/fonts/sourcesanspro-regular-webfont.eot);
-    src: url(http://trendyol.com/frontend/web/assets/fonts/sourcesanspro-regular-webfont.eot?#iefix) format("embedded-opentype"), url(http://trendyol.com/frontend/web/assets/fonts/sourcesanspro-regular-webfont.woff) format("woff"), url(http://trendyol.com/frontend/web/assets/fonts/sourcesanspro-regular-webfont.ttf) format("truetype"), url(http://trendyol.com/frontend/web/assets/fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular) format("svg");
-    font-style: normal;
-    font-weight: 400
-}
-
-@font-face {
-    font-family: source_sans_prosemibold;
-    src: url(http://trendyol.com/frontend/web/assets/fonts/sourcesanspro-semibold-webfont.eot);
-    src: url(http://trendyol.com/frontend/web/assets/fonts/sourcesanspro-semibold-webfont.eot?#iefix) format("embedded-opentype"), url(http://trendyol.com/frontend/web/assets/fonts/sourcesanspro-semibold-webfont.woff) format("woff"), url(http://trendyol.com/frontend/web/assets/fonts/sourcesanspro-semibold-webfont.ttf) format("truetype"), url(http://trendyol.com/frontend/web/assets/fonts/sourcesanspro-semibold-webfont.svg#source_sans_prosemibold) format("svg");
-    font-style: normal;
-    font-weight: 400
-}
-
-@font-face {
-    font-family: source_sans_proitalic;
-    src: url(http://trendyol.com/frontend/web/assets/fonts/sourcesanspro-italic-webfont.eot);
-    src: url(http://trendyol.com/frontend/web/assets/fonts/sourcesanspro-italic-webfont.eot?#iefix) format("embedded-opentype"), url(http://trendyol.com/frontend/web/assets/fonts/sourcesanspro-italic-webfont.woff) format("woff"), url(http://trendyol.com/frontend/web/assets/fonts/sourcesanspro-italic-webfont.ttf) format("truetype"), url(http://trendyol.com/frontend/web/assets/fonts/sourcesanspro-italic-webfont.svg#source_sans_proitalic) format("svg");
-    font-style: normal;
-    font-weight: 400
-}
-
-@font-face {
-    font-family: oxygen;
-    src: url(http://trendyol.com/frontend/web/assets/fonts/oxygen-webfont.eot);
-    src: url(http://trendyol.com/frontend/web/assets/fonts/oxygen-webfont.eot?#iefix) format("embedded-opentype"), url(http://trendyol.com/frontend/web/assets/fonts/oxygen-webfont.woff) format("woff"), url(http://trendyol.com/frontend/web/assets/fonts/oxygen-webfont.ttf) format("truetype"), url(http://trendyol.com/frontend/web/assets/fonts/oxygen-webfont.svg#oxygen) format("svg");
-    font-style: normal;
-    font-weight: 400
-}
-
-@font-face {
-    font-family: oxygenbold;
-    src: url(http://trendyol.com/frontend/web/assets/fonts/oxygen-bold-webfont.eot);
-    src: url(http://trendyol.com/frontend/web/assets/fonts/oxygen-bold-webfont.eot?#iefix) format("embedded-opentype"), url(http://trendyol.com/frontend/web/assets/fonts/oxygen-bold-webfont.woff) format("woff"), url(http://trendyol.com/frontend/web/assets/fonts/oxygen-bold-webfont.ttf) format("truetype"), url(http://trendyol.com/frontend/web/assets/fonts/oxygen-bold-webfont.svg#oxygenbold) format("svg");
-    font-style: bold;
-    font-weight: 400
-}
-
-@font-face {
-    font-family: oxygen-bold;
-    src: url(http://trendyol.com/frontend/web/assets/fonts/oxygen-bold-webfont.eot);
-    src: url(http://trendyol.com/frontend/web/assets/fonts/oxygen-bold-webfont.eot?#iefix) format("embedded-opentype"), url(http://trendyol.com/frontend/web/assets/fonts/oxygen-bold-webfont.woff) format("woff"), url(http://trendyol.com/frontend/web/assets/fonts/oxygen-bold-webfont.ttf) format("truetype"), url(http://trendyol.com/frontend/web/assets/fonts/oxygen-bold-webfont.svg#oxygen-bold) format("svg");
-    font-style: bold;
-    font-weight: 400
-}
-
 .loggedin-panel-container .account-link-container .icon {
     margin-top: 11px;
     margin-left: 5px
@@ -5126,7 +5078,6 @@ html {
 }
 
 .user-navigation-container ul li .basket-item-count {
-    display: none;
     position: absolute;
     top: 15px;
     width: 16px;
@@ -5158,7 +5109,6 @@ html {
     position: absolute;
     z-index: 901;
     background-color: #fff;
-    display: none;
     box-shadow: 0 4px 3px 1px rgba(0, 0, 0, .07)
 }
 

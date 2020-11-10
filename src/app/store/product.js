@@ -6,7 +6,8 @@ const product = {
         searchProducts: [],
         filteredProducts: [],
         filters: [],
-        filterOptions: []
+        filterOptions: [],
+        productDetail: null
     }),
     mutations: {
         _setProducts(state, items){
@@ -17,24 +18,50 @@ const product = {
         },
         _setFilteredProducts(state, items) {
             state.filteredProducts = items;
+        },
+        _setProduct(state, product){
+            state.productDetail = product;
         }
     },
     actions: {
         setFilter({commit}, params){
             commit("_setFilter", params);
-
         },
-        retrieveProducts({commit}){
+        retrieveProducts({state,commit}){
             db.collection('products').get().then(snapshot => {
                 let tempItems = [];
                 snapshot.forEach(data => {
-                    tempItems.push(data.data());
+                    if(state.filters['category'] !== null && state.filters['category'] !== undefined){
+                        const category_slug = state.filters['category'];
+                        const item = data.data();
+                        if (item.parent_category === category_slug || item.category === category_slug || item.child_category === category_slug) {
+                            tempItems.push(data.data());
+                        }
+                    }
+                    else{
+                        tempItems.push(data.data());
+                    }
                 })
                 commit("_setFilteredProducts", tempItems);
             });
         },
+        getProductDetail({commit}, product_id) {
+            db.collection('products').get().then(snapshot => {
+               let selected = null;
+               snapshot.forEach(data => {
+                   if(data.data().id === product_id) {
+                       selected = data.data();
+                       return false;
+                   }
+               });
+               commit('_setProduct', selected);
+            });
+        }
     },
     getters: {
+        getProduct(state) {
+            return state.productDetail;
+        },
         getFilteredProducts(state){
             return state.filteredProducts;
         }

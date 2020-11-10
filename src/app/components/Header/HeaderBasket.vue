@@ -8,7 +8,7 @@
             <span id="basketItemCount">{{ basket.length }}</span>
         </div>
         <div id="headerBasketContentArea">
-            <div id="basketPreviewcontent" class="basket-menu-container" v-show="hover && basket.length > 0">
+            <div id="basketPreviewcontent" class="basket-menu-container" v-show="hover">
                 <div class="slideContainer">
 
                     <div class="slideUpBox">
@@ -29,7 +29,7 @@
                                         <span><label class="productQuantity">Adet:</label> {{ basketItem.amount }}</span>
                                     </p>
                                     <p>
-                                        <span class="salePrice">{{  basketItem.item.price * basketItem.amount  }} TL</span>
+                                        <span class="salePrice">{{ (basketItem.item.price * basketItem.amount).toFixed(2)  }} TL</span>
                                     </p>
                                 </div>
                             </a>

@@ -12,7 +12,7 @@
                                 </a></div>
                                 <div class="aggregation-seperator"><span></span></div>
                             </div>
-                            <OptionFilter title="Marka" :has-search-bar="true" name="brand" :options="[{ title: 'Trendyol', value: 'trendyol' }]" />
+                            <OptionFilter title="Marka" :has-search-bar="true" name="brand" :options="[{ title: 'Trendyol', value: 'trendyol', checked: true }]" />
                             <div class="fltrs-wrppr">
                                 <div class="fltr-cntnr-ttl">Marka</div>
                                 <input class="fltr-srch-inpt" type="text" placeholder="Aradığınız markayı yazın"
@@ -1923,6 +1923,10 @@ export default {
     name: "Market",
     components: {OptionFilter, ProductItem},
     created(){
+        const category = this.$route.params.category_slug;
+        if(category !== undefined && category !== null && category !== '') {
+            this.$store.dispatch('product/setFilter', { key: 'category', value: category })
+        }
         this.$store.dispatch('product/retrieveProducts');
     },
     computed: {

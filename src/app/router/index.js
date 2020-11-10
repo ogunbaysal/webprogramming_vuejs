@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import Home from "@/app/views/Home/Home";
 import Basket from "@/app/views/Basket/Basket";
 import Market from "@/app/views/Market/Market";
+import ProductDetail from "@/app/views/Product/ProductDetail";
+import Auth from "@/app/views/Auth/Auth";
 
 Vue.use(VueRouter)
 
@@ -21,6 +23,21 @@ const routes = [
         path: '/urunler',
         name: 'Ürünler - Trendyol',
         component: Market
+    },
+    {
+        path: '/urunler/:category_slug',
+        name: 'Ürünler - Trendyol',
+        component: Market
+    },
+    {
+        path: '/urun/:product_id',
+        name: 'Ürün - Trendyol',
+        component: ProductDetail
+    },
+    {
+        path: '/girisyap',
+        name: 'Giriş Yap - Trendyol',
+        component: Auth
     },
     // {
     //     path: '/about',

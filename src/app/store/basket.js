@@ -6,17 +6,21 @@ const basket = {
         items: []
     }),
     mutations: {
-        _addBasketItem(state, item){
+        _addBasketItem(state, { item, options }){
             for (let i = 0; i < state.items.length; i++){
-                if(state.items[i].id === item.id){
+                if(
+                    state.items[i].item.id === item.id &&
+                    state.items[i].options.body === options.body
+                ){
                     state.items[i].amount++;
                     return true;
                 }
             }
-            state.items.push({
+            state.items.push( {
                 id: uuid.v1(),
                 item: item,
-                amount: 1
+                amount: 1,
+                options: options
             });
         },
         _removeBasketItem(state, basket_id){
@@ -41,8 +45,8 @@ const basket = {
         }
     },
     actions: {
-        addBasketItem({commit}, item){
-            commit("_addBasketItem", item);
+        addBasketItem({commit}, context){
+            commit("_addBasketItem", context);
         },
         removeBasketItem({commit}, basket_id) {
             commit("_removeBasketItem", basket_id);

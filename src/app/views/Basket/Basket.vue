@@ -10,7 +10,7 @@
                         <div class="partial-basket">
                             <div class="pb-wrapper">
                                 <div class="pb-header">
-                                    Sepetim (1 Ürün)
+                                    Sepetim ({{ items.length }} Ürün)
                                     <div class="pb-header-actions">
                                         <button type="button" @click="goHomePage" class="ty-font-w-semi-bold ty-button ty-bordered ty-transition ty-input-medium ty-notr">
                                             Alışverişe Devam Et

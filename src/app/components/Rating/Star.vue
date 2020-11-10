@@ -27,6 +27,8 @@ export default {
 <style scoped>
 .star-w {
     position: relative;
+    margin-right: 2px;
+
 }
 .star-w .star {
     width: 14px;
@@ -34,7 +36,7 @@ export default {
     transform: scale(0.7);
 }
 .star-w .empty .star {
-    background: url(https://trendyol.com/frontend/web/assets/images/svg/rating-and-review-small-star-grey.svg) no-repeat center;
+    background: url(https://trendyol.com/frontend/web/assets/images/svg/rating-and-review-small-star-grey.svg) no-repeat center !important;
 }
 .star-w .full {
     position: absolute;
@@ -44,6 +46,6 @@ export default {
     overflow: hidden;
 }
 .star-w .full .star {
-    background: url(https://trendyol.com/frontend/web/assets/images/svg/rating-and-review-small-star-orange.svg) no-repeat center;
+    background: url(https://trendyol.com/frontend/web/assets/images/svg/rating-and-review-small-star-orange.svg) no-repeat center !important;
 }
 </style>

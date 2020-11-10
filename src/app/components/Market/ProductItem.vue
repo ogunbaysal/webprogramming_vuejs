@@ -50,7 +50,7 @@ export default {
             return (this.product.price - this.totalDiscount).toFixed(2);
         },
         link(){
-            return 'urun/' + this.product.id;
+            return '/urun/' + this.product.id;
         }
     }
 }

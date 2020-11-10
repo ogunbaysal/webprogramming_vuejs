@@ -7,7 +7,9 @@
                     <div class="normal-column" v-for="item in parent.children" :key="item.title">
                         <div class="category-box"><a :href="item.slug" class="sub-category-header">{{ item.title }}</a>
                             <ul class="sub-item-list">
-                                <li v-for="child in item.children" :key="child.title"><a :href="child.slug">{{ child.title }}</a></li>
+                                <li v-for="child in item.children" :key="child.title">
+                                    <a :href="getLink(child.slug)">{{ child.title }}</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -42,6 +44,11 @@ export default {
     data: function () {
         return {
             hover: false,
+        }
+    },
+    methods: {
+        getLink(slug){
+            return '/urunler/' + slug;
         }
     }
 }

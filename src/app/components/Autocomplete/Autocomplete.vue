@@ -28,6 +28,9 @@
     export default {
         name: "Autocomplete",
         components: {Suggestion},
+        created: function (){
+          this.$store.dispatch("autocomplete/setParam", '');
+        },
         computed: {
             param: {
                 get(){

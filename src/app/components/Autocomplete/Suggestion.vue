@@ -41,7 +41,6 @@ export default {
             //test purpose
             e.preventDefault();
             this.$store.dispatch("autocomplete/addHistory", this.item);
-            this.$store.dispatch("basket/addBasketItem", this.item);
         }
     }
 }

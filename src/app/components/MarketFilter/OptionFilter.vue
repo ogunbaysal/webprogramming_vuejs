@@ -3,8 +3,8 @@
         <div class="fltr-cntnr-ttl">{{ title }}</div>
         <input v-show="hasSearchBar" class="fltr-srch-inpt" type="text" placeholder="Ara" value="">
         <div class="fltrs" v-for="(item, index) in options" :key="index">
-            <a class="fltr-item-wrppr" @click="onOptionClick" href="#">
-                <div class="chckbox"></div>
+            <a class="fltr-item-wrppr" @click="onOptionClick(index)" href="#">
+                <div class="chckbox" :class="item.checked !== undefined && item.checked ? 'chckd' : ''"></div>
                 <div class="fltr-item-text">{{ item.title }}</div>
             </a>
         </div>
@@ -34,8 +34,9 @@ export default {
         }
     },
     methods: {
-        onOptionClick(option){
-            console.log(option);
+        onOptionClick(i){
+            this.options[i].checked = !this.options[i].checked;
+            this.$forceUpdate();
         }
     }
 }

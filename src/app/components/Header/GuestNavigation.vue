@@ -3,8 +3,8 @@
           class="">
         <span>Giriş Yap</span>
         <div class="login-panel-container" v-show="display_container">
-            <div class="account-button login">Giriş Yap</div>
-            <div class="account-button register">Üye Ol</div>
+            <div class="account-button login" @click="redirectToLogin">Giriş Yap</div>
+            <div class="account-button register" @click="redirectToLogin">Üye Ol</div>
         </div>
     </span>
 </template>
@@ -15,6 +15,11 @@ export default {
     data: function () {
         return {
             display_container: false,
+        }
+    },
+    methods:{
+        redirectToLogin(){
+            this.$router.push('/girisyap');
         }
     }
 }
@@ -132,7 +137,6 @@ export default {
 }
 
 .user-navigation-container ul li .basket-item-count {
-    display: none;
     position: absolute;
     top: 15px;
     width: 16px;

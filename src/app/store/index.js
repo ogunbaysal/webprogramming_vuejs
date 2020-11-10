@@ -6,6 +6,8 @@ import basket from "@/app/store/basket";
 import product from "@/app/store/product";
 import VuexPersistence from "vuex-persist";
 import category from "@/app/store/category";
+import favorite from "@/app/store/favorite";
+import advertisement from "@/app/store/advertisement";
 const vuexLocal = new VuexPersistence({
     storage: window.localStorage
 });
@@ -17,7 +19,9 @@ const store = new Vuex.Store({
        account: account,
        basket: basket,
        product: product,
-       category: category
+       category: category,
+       favorite: favorite,
+       advertisement: advertisement
    },
     plugins: [vuexLocal.plugin]
 });
