@@ -22,7 +22,7 @@
                         <input
 
                             class="q-input"
-                            type="password"
+                            :type="showPassword ? 'text' : 'password'"
                             name="login-password"
                             id="login-password-input"
                             data-testid="password-input"
@@ -30,7 +30,7 @@
                             v-model="form.password"
                         />
                     </div>
-                    <i class="i-eye-close"></i>
+                    <i @click="showPassword = !showPassword" :class="showPassword ? 'i-eye-close' : 'i-eye-open'"></i>
                 </div>
             </div>
             <div class="forgot-password">
@@ -54,7 +54,8 @@ export default {
             form: {
                 email: '',
                 password: ''
-            }
+            },
+            showPassword: false,
         };
     },
     methods: {

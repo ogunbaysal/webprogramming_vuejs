@@ -24,11 +24,11 @@
                         class="q-input"
                         data-testid="password-input"
                         name="register-password"
-                        type="password"
+                        :type="showPassword ? 'text' : 'password'"
                         value=""
                     />
                     </div>
-                    <i class="i-eye-close"></i>
+                    <i @click="showPassword = !showPassword" :class="showPassword ? 'i-eye-close' : 'i-eye-open'"></i>
                 </div>
                 <p class="q-typography q-paragraph q-initial dark-gray">
                     Şifreniz en az 7 karakter olmalı, harf ve rakam içermelidir.
@@ -87,7 +87,12 @@
 
 <script>
 export default {
-    name: "Register"
+    name: "Register",
+    data: () => {
+        return {
+          showPassword: false
+        };
+    }
 }
 </script>
 

@@ -9,6 +9,7 @@
                     <ProductDescription/>
                 </div>
             </div>
+            <FeaturedProducts/>
             <ProductComments/>
            <ProductProperties/>
         </div>
@@ -22,11 +23,14 @@ import ProductBody from "@/app/components/Product/ProductBody";
 import ProductDescription from "@/app/components/Product/ProductDescription";
 import ProductComments from "@/app/components/Product/ProductComments";
 import ProductProperties from "@/app/components/Product/ProductProperties";
+import FeaturedProducts from "@/app/components/FeaturedProducts/FeaturedProducts";
 // import product from "@/app/store/product";
 import('@/app/views/Product/product.css');
 export default {
     name: "ProductDetail",
-    components: {ProductProperties, ProductComments, ProductDescription, ProductBody, ProductHead, Gallery},
+    components: {
+        FeaturedProducts,
+        ProductProperties, ProductComments, ProductDescription, ProductBody, ProductHead, Gallery},
     created() {
         const product_id = this.$route.params.product_id;
         this.initializeData(product_id);

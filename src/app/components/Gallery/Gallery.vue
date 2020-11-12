@@ -6,7 +6,7 @@
                     <button @click="prev()" type="button" data-role="none" class="slick-arrow slick-prev slick-disabled" style="display:block"> Previous</button>
                     <div class="slick-list" style="height: 620px;">
                         <div class="slick-track" style="opacity: 1; transform: translate3d(0px, 0px, 0px); height: 2356px;">
-                            <div v-for="(item, index) in images" :key="'a-' + index" :aria-hidden="current === index ? 'false' : 'true'" :data-index="index" :class="current === index ? 'slick-active slick-current' : ''" class="slick-slide" tabindex="-1" style="outline: none; width: 80px;">
+                            <div @click="onImageClicked(index)" v-for="(item, index) in images" :key="'a-' + index" :aria-hidden="current === index ? 'false' : 'true'" :data-index="index" :class="current === index ? 'slick-active slick-current' : ''" class="slick-slide" tabindex="-1" style="outline: none; width: 80px;">
                                 <div>
                                     <div class="selected pd-img">
                                         <img alt="Image" :src="item" style="width: 78px; height: 114px; min-width: 78px; min-height: 114px;">
@@ -24,7 +24,7 @@
                     <button @click="prev()" type="button" data-role="none" class="slick-arrow slick-prev" style="display:block"> Previous</button>
                     <div class="slick-list">
                         <div class="slick-track"
-                             style="width: 7904px; opacity: 1; transform: translate3d(-416px, 0px, 0px);">
+                             style="width: 7904px; opacity: 1;" :style="getTransformStyle">
                             <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned"
                                  aria-hidden="true" style="width: 416px;"></div>
                             <div v-for="(item, i) in images" :key="'c' + i" :data-index="i" :class="current === i ? 'slick-active slick-current' : ''" class="slick-slide" tabindex="-1" aria-hidden="false" style="outline: none; width: 416px;">
@@ -56,8 +56,15 @@
 export default {
     name: "Gallery",
     data: () => ({
-        current: 0
+        current: 0,
+        transFormStep: 416,
+        transform: 416,
     }),
+    computed: {
+        getTransformStyle(){
+            return `transform: translate3d(-${this.transform}px, 0px, 0px);`
+        }
+    },
     props: {
         images: {
             type: Array,
@@ -65,17 +72,24 @@ export default {
         }
     },
     methods: {
+        onImageClicked(index){
+            this.transform = this.transFormStep * (index+1);
+        },
         next(){
             if(this.images[this.current+1] === undefined) {
+                this.transform = this.transFormStep;
                 this.current = 0;
             }else {
+                this.transform += this.transFormStep;
                 this.current++;
             }
         },
         prev(){
             if(this.current === 0){
+                this.transform = this.transFormStep * this.images.length;
                 this.current = this.images.length -1;
             }else{
+                this.transform -= this.transFormStep;
                 this.current--;
             }
         }

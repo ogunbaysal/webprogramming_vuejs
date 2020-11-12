@@ -72,7 +72,7 @@
             <div class="seperator"></div>
             <div class="pr-rnr-com-w">
                 <div class="pr-rnr-com">
-                    <ProductComment v-for="(item, i) in product.comments" :key="'s' + i" :comment="item" />
+                    <ProductComment v-for="(item, i) in product.comments" :key="'commm-' + i" :comment="item" />
                 </div>
                 <form action="/router" method="post"><input type="text" name="type" hidden="" readonly=""
                                                             value="product-review"><input type="text"
