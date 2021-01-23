@@ -1,0 +1,319 @@
+{
+    "products": [{
+            "id": "OX00018",
+            "title": "Kadın Mavi Blok Renkli Oversize Polar Sweatshirt",
+            "properties": {
+                "arm_type": {
+                    "name": "Kol Tipi",
+                    "value": "Uzun Kol"
+                },
+                "style": {
+                    "name": "Stil",
+                    "value": "Trend"
+                },
+                "fabric_type": {
+                    "name": "Kumaş Tipi",
+                    "value": "Örme"
+                },
+                "mold": {
+                    "name": "Kalıp",
+                    "value": "Oversize"
+                }
+            },
+            "price": 144.95,
+            "discount": 10,
+            "images": [
+                "https://cdn.dsmcdn.com/ty20/product/media/images/20201102/14/21383092/99670828/1/1_org.jpg",
+                "https://cdn.dsmcdn.com/ty20/product/media/images/20201102/14/21383092/99670828/2/2_org.jpg",
+                "https://cdn.dsmcdn.com/ty20/product/media/images/20201102/14/21383092/99670828/3/3_org.jpg"
+            ],
+            "parent_category": "kadin",
+            "category": "kadin-giyim",
+            "child_category": "kadin-giyim-sweatshirt",
+            "merchant": "Happiness İst.",
+            "brand": "Happiness İst.",
+            "link": "https://www.trendyol.com/happiness-ist/kadin-mavi-blok-renkli-oversize-polar-sweatshirt-ox00018-p-56146451",
+            "description": "",
+            "comments": [{
+                    "comment": "bu ürüne 1 yıldız bile vermek istemem. çok kalitesi cepleri buruş buruş böyle düzgün kare bir şekilde durmuyor şirinler kostumu giymiş gibi oluyorsunuz asla bu fiyata değmez.",
+                    "date": "20 Kasım 2020",
+                    "name": "",
+                    "display_name": false,
+                    "star": 1,
+                    "user_id": 2123
+                },
+                {
+                    "comment": "Efsane ürün",
+                    "date": "20 Kasım 2020",
+                    "name": "Emel Arıcı",
+                    "display_name": true,
+                    "star": 5,
+                    "user_id": 2123
+                },
+                {
+                    "comment": "Biraz ince ama kalitesiz değil , hızlı ulaşım içinde ayrıca teşekkürler..",
+                    "date": "30 Kasım 2020",
+                    "name": "",
+                    "display_name": false,
+                    "star": 4,
+                    "user_id": 2123
+                }
+            ],
+            "body": [{
+                    "count": 100,
+                    "type": "S"
+                },
+                {
+                    "count": 100,
+                    "type": "M"
+                },
+                {
+                    "count": 100,
+                    "type": "L"
+                },
+                {
+                    "count": 0,
+                    "type": "XL"
+                }
+            ]
+        },
+        {
+            "id": "14040",
+            "title": "Kadın Menekşe Kapüşonlu Sweatshirt",
+            "properties": {
+                "arm_type": {
+                    "name": "Kol Tipi",
+                    "value": "Uzun Kol"
+                },
+                "style": {
+                    "name": "Stil",
+                    "value": "Trend"
+                },
+                "fabric_type": {
+                    "name": "Kumaş Tipi",
+                    "value": "Örme"
+                },
+                "mold": {
+                    "name": "Kalıp",
+                    "value": "Oversize"
+                }
+            },
+            "price": 99.95,
+            "discount": 5,
+            "images": [
+                "https://cdn.dsmcdn.com/ty11/product/media/images/20200914/13/10606961/59471417/1/1_org_zoom.jpeg",
+                "https://cdn.dsmcdn.com/ty11/product/media/images/20200914/13/10606961/59471417/2/2_org_zoom.jpeg",
+                "https://cdn.dsmcdn.com/ty12/product/media/images/20200914/13/10606961/59471417/3/3_org_zoom.jpeg"
+            ],
+            "parent_category": "kadin",
+            "category": "kadin-giyim",
+            "child_category": "kadin-giyim-sweatshirt",
+            "merchant": "Addax",
+            "brand": "Addax",
+            "link": "https://www.trendyol.com/addax/kadin-menekse-kapusonlu-sweatshirt-s0519-h7-adx-0000014040-p-31627919",
+            "description": "",
+            "comments": [{
+                    "comment": "kaliteli bir ürün tavsiye ederim",
+                    "date": "27 Kasım 2020",
+                    "name": "",
+                    "display_name": false,
+                    "star": 5,
+                    "user_id": 2123
+                },
+                {
+                    "comment": "Tek kelimeyle mükemmel kendi bedeninizi alın",
+                    "date": "25 Ekim 2020",
+                    "name": "Ayşenur İnan",
+                    "display_name": true,
+                    "star": 5,
+                    "user_id": 2123
+                },
+                {
+                    "comment": "Biraz ince ama kalitesiz değil , hızlı ulaşım içinde ayrıca teşekkürler..",
+                    "date": "30 Kasım 2020",
+                    "name": "",
+                    "display_name": false,
+                    "star": 4,
+                    "user_id": 2123
+                }
+            ],
+            "body": [{
+                    "count": 100,
+                    "type": "S"
+                },
+                {
+                    "count": 100,
+                    "type": "M"
+                },
+                {
+                    "count": 0,
+                    "type": "L"
+                },
+                {
+                    "count": 0,
+                    "type": "XL"
+                }
+            ]
+        },
+        {
+            "id": "TWOAW21SW1271",
+            "title": "Siyah Desenli ve Vatkalı Örme Sweatshirt",
+            "properties": {
+                "arm_type": {
+                    "name": "Kol Tipi",
+                    "value": "Uzun Kol"
+                },
+                "style": {
+                    "name": "Stil",
+                    "value": "Trend"
+                },
+                "fabric_type": {
+                    "name": "Kumaş Tipi",
+                    "value": "Örme"
+                },
+                "mold": {
+                    "name": "Kalıp",
+                    "value": "Oversize"
+                }
+            },
+            "price": 50.99,
+            "discount": 5,
+            "images": [
+                "https://cdn.dsmcdn.com/ty15/product/media/images/20201008/12/14129180/90699282/1/1_org.jpg",
+                "https://cdn.dsmcdn.com/ty16/product/media/images/20201008/12/14129180/90699282/2/2_org.jpg",
+                "https://cdn.dsmcdn.com/ty16/product/media/images/20201008/12/14129180/90699282/3/3_org.jpg"
+            ],
+            "parent_category": "kadin",
+            "category": "kadin-giyim",
+            "child_category": "kadin-giyim-sweatshirt",
+            "merchant": "TRENDYOLMİLLA",
+            "brand": "TRENDYOLMİLLA",
+            "link": "https://www.trendyol.com/trendyolmilla/siyah-desenli-ve-vatkali-orme-sweatshirt-twoaw21sw1271-p-51162242",
+            "description": "",
+            "comments": [{
+                    "comment": "1.65 ve 65 kiloyum, M aldım bedeni gayet güzel oldu. Boyu ne uzun ne kısa tam ayarında,bel kısmındaki lastik ve kolunun bilek kısmındaki lastiği çok güzel bollaşacak gibi değil. Tek beğenmediğim omuzlarındaki sünger vatka kısmı beni rahatsız etti, fazla geniş o yüzden bolluk yapıyor. Deseni de beyaz değil de gri renkte, bazı yerlerde açık renkli desen sanki solmuş gibi gözüküyor.",
+                    "date": "3 Kasım 2020",
+                    "name": "",
+                    "display_name": false,
+                    "star": 3,
+                    "user_id": 2123
+                },
+                {
+                    "comment": "Dikisleri kotu, disaridan vatka kisminin icine dogru dikmisler, hos olmamis goruntu olarak. Kumasi da biraz sert maalesef...",
+                    "date": "4 Kasım 2020",
+                    "name": "Saadet Engin",
+                    "display_name": true,
+                    "star": 2,
+                    "user_id": 2123
+                },
+                {
+                    "comment": "cok begendim. 163 cm 58 kiloyum tam oldu. genis kalip degil gogus kismi oturuyor.",
+                    "date": "30 Kasım 2020",
+                    "name": "",
+                    "display_name": false,
+                    "star": 5,
+                    "user_id": 2123
+                }
+            ],
+            "body": [{
+                    "count": 100,
+                    "type": "S"
+                },
+                {
+                    "count": 100,
+                    "type": "M"
+                },
+                {
+                    "count": 100,
+                    "type": "L"
+                },
+                {
+                    "count": 100,
+                    "type": "XL"
+                }
+            ]
+        },
+        {
+            "id": "TWOAW21SW0836",
+            "title": "Siyah Fermuarlı Kapüşonlu Basic Örme Sweatshirt",
+            "properties": {
+                "arm_type": {
+                    "name": "Kol Tipi",
+                    "value": "Uzun Kol"
+                },
+                "style": {
+                    "name": "Stil",
+                    "value": "Trend"
+                },
+                "fabric_type": {
+                    "name": "Kumaş Tipi",
+                    "value": "Örme"
+                },
+                "mold": {
+                    "name": "Kalıp",
+                    "value": "Oversize"
+                }
+            },
+            "price": 64.95,
+            "discount": 10,
+            "images": [
+                "https://cdn.dsmcdn.com/ty14/product/media/images/20200928/19/12397134/86582230/1/1_org.jpg",
+                "https://cdn.dsmcdn.com/ty14/product/media/images/20200928/19/12397134/86582230/2/2_org.jpg",
+                "https://cdn.dsmcdn.com/ty14/product/media/images/20200928/19/12397134/86582230/3/3_org.jpg"
+            ],
+            "parent_category": "kadin",
+            "category": "kadin-giyim",
+            "child_category": "kadin-giyim-sweatshirt",
+            "merchant": "TRENDYOLMİLLA",
+            "brand": "TRENDYOLMİLLA",
+            "link": "https://www.trendyol.com/trendyolmilla/siyah-fermuarli-kapusonlu-basic-orme-sweatshirt-twoaw21sw0836-p-48827529",
+            "description": "",
+            "comments": [{
+                    "comment": "Kalıbı duruşu çok güzel fakat içi polar ve giydiğinizde her yanınız tüy toplanıyor içine beyaz tişört giymiştim tişört siyah tüylerle doldu etiket gittiği için yolayamayorum ama sevmedim duruşu hariç alanlar bilginiz olsun",
+                    "date": "6 Ekim 2020",
+                    "name": "",
+                    "display_name": false,
+                    "star": 3,
+                    "user_id": 2123
+                },
+                {
+                    "comment": "Çok güzel tam baharlık yumuşacık ve ince değil için sıcak tutan kumaştan ama aşırı Polar gibi de değil ama kalın tam bu mevsimlerde giymelik.",
+                    "date": "3 Ekim 2020",
+                    "name": "Ayşenur İnan",
+                    "display_name": false,
+                    "star": 5,
+                    "user_id": 2123
+                },
+                {
+                    "comment": "Sade bir model, giy çık. 1.61 boy, 59 kiloyum M aldım normal oldu",
+                    "date": "10 Ekim 2020",
+                    "name": "",
+                    "display_name": false,
+                    "star": 4,
+                    "user_id": 2123
+                }
+            ],
+            "body": [{
+                    "count": 100,
+                    "type": "S"
+                },
+                {
+                    "count": 100,
+                    "type": "M"
+                },
+                {
+                    "count": 100,
+                    "type": "L"
+                },
+                {
+                    "count": 100,
+                    "type": "XL"
+                },
+                {
+                    "count": 100,
+                    "type": "XXL"
+                }
+            ]
+        }
+    ]
+}
